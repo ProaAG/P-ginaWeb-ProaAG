@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+}
+
+.kavoon-regular {
+  font-family: "Kavoon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    background-color: #11aeda;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 120px;
+    font-family: "Kavoon", serif;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+.header-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-size: clamp(1.6rem, 2vw, 2.2rem);
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    animation: aparecerTitulo 1.2s ease-in-out forwards;
+}
+
+.logo-principal {
+    position: absolute;
+    left: 20px;
+    animation: aparecerLogo 1.2s ease-in-out forwards;
+    animation: girar 2s linear infinite;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #109cc3;
+    padding: 10px 18px;
+    border-radius: 999px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.92);
+    padding: 5px 8px;
+    font-weight: 500;
+    border-radius: 999px;
+    letter-spacing: 0.3px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, Helvetica, Arial, sans-serif;
+
+    background: linear-gradient(90deg, rgba(170, 235, 240, 1) 0%, rgba(87, 212, 207, 1) 68%, rgba(16, 149, 194, 1) 100%);
+    color: #1f2328;
+}
+
+
+.login-container {
+    width: min(460px, calc(100% - 40px));
+    margin: 50px auto 0;
+    background-color: #11aeda;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    animation: aparecerTexto 1s ease-in-out forwards;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+
+    object-fit: contain;
+}
+
+
+h1 {
+    margin: 0 0 36px;
+
+    text-align: center;
+
+    font-size: 28px;
+    font-weight: 400;
+
+    color: #1f2328;
+}
+
+form {
+    width: 100%;
+}
+
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #1f2328;
+}
+
+
+.password-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.password-header label {
+    margin-bottom: 0;
+}
+
+
+
+.forgot-password {
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+
+input {
+    display: block;
+
+    width: 100%;
+    height: 48px;
+
+    padding: 10px 14px;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #1f2328;
+    background-color: #ffffff;
+
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+
+    outline: none;
+
+    transition: border-color 0.15s ease,
+                box-shadow 0.15s ease;
+}
+
+
+input:focus {
+    border-color: #109cc3;
+
+    box-shadow: 0 0 0 3px rgba(16, 156, 195, 0.2);
+}
+
+
+#login-button {
+    width: 100%;
+    height: 48px;
+
+    margin-top: 2px;
+
+    padding: 10px 16px;
+
+    border: 1px solid rgba(27, 31, 36, 0.15);
+    border-radius: 6px;
+
+    background-color: #109cc3;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background-color 0.15s ease;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+#login-button:hover {
+    background-color: #108cb6;
+}
+
+#login-button:active {
+    background-color: #108cb6;
+}
+
+@media (max-width: 500px) {
+
+    .login-container {
+        width: calc(100% - 40px);
+        margin-top: 35px;
+        padding: 32px 24px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+}@keyframes aparecerTexto {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}@keyframes aparecerTitulo {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes aparecerLogo {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes girar{
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+.boton-inicio {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: aparecerBoton 1.2s ease-in-out forwards;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+.boton-inicio:hover {
+    background-color: #108cb6;
+    transform: translateY(-50%) scale(1.05);
+}
+
+@keyframes aparecerBoton {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #109cc3;
+    padding: 10px 18px;
+    border-radius: 999px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    animation: aparecerMenu 1.2s ease-in-out forwards;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.92);
+    padding: 5px 8px;
+    font-weight: 500;
+    border-radius: 999px;
+    letter-spacing: 0.3px;
+    opacity: 0;
+    animation: aparecerLink 0.8s ease-in-out forwards;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+nav a:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+nav a:nth-child(2) {
+    animation-delay: 0.35s;
+}
+
+nav a:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+nav a:nth-child(4) {
+    animation-delay: 0.65s;
+}
+
+nav a:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+nav a:hover {
+    background-color: #108cb6;
+    transform: translateY(-3px);
+}
+
+@keyframes aparecerMenu {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes aparecerLink {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes aparecerTexto {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.imagenes {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    flex: 1 1 280px;
+    max-width: 340px;
+    opacity: 0;
+    animation: aparecerImagen 1s ease-in-out forwards;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.imagenes:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.imagenes:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.imagenes:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.imagenes:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.imagenes img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.imagenes:hover img {
+    transform: scale(1.04);
+}
+
+@keyframes aparecerImagen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    background-color: #109cc3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+.contenedor {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
