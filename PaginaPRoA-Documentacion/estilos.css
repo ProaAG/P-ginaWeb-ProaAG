@@ -11,15 +11,15 @@
 /* ========================================= */
 
 :root {
-    --azul: #245e74;
-    --azul-oscuro: #173f52;
+    --azul: #109cc3;
+    --azul-oscuro: #123b50;
 
-    --celeste: #69a9ba;
-    --celeste-claro: #e8f3f6;
+    --celeste: #57d4cf;
+    --celeste-claro: #d5f5f5;
 
-    --fondo: #edf3f6;
-    --texto: #203344;
-    --muted: #657786;
+    --fondo: #aaebf0;
+    --texto: #123b50;
+    --muted: #496b7b;
 
     --blanco: #fff;
     --borde: #dbe5ea;
@@ -31,7 +31,7 @@
     --degradado-lateral: linear-gradient(
         90deg,
         rgba(170, 235, 240, 1) 0%,
-        rgba(87, 217, 207, 1) 68%,
+        rgba(87, 212, 207, 1) 68%,
         rgba(16, 149, 194, 1) 100%
     );
 }
@@ -149,7 +149,7 @@ main {
 /* Nombre de la institución */
 
 .header-global h1 {
-    color: #173f52;
+    color: #123b50;
 
     font-size: 1.28rem;
     font-weight: 800;
@@ -179,7 +179,7 @@ main {
 
     width: 100%;
 
-    color: #173f52;
+    color: #123b50;
     text-decoration: none;
 
     padding: 13px 16px;
@@ -211,7 +211,7 @@ main {
 
     margin-top: auto;
 
-    background: #173f52;
+    background: #109cc3;
     color: #fff;
 
     text-align: center;
@@ -228,7 +228,7 @@ main {
 }
 
 .boton-header:hover {
-    background: #102f40;
+    background: #108cb6;
     transform: translateY(-2px);
 }
 
@@ -242,7 +242,7 @@ main {
     margin-left: 280px;
     margin-top: auto;
 
-    background: var(--azul-oscuro);
+    background: #108cb6;
     color: #eaf4f7;
 
     text-align: center;
@@ -301,7 +301,7 @@ main {
 
     border-radius: 0 170px 170px 0;
 
-    box-shadow: 0 10px 25px #245e742e;
+    box-shadow: 0 10px 25px rgba(16, 156, 195, .18);
 }
 
 .hero-imagen img {
@@ -541,7 +541,7 @@ main {
 }
 
 .card a:hover {
-    color: #102f40;
+    color: #108cb6;
 }
 
 
@@ -569,7 +569,7 @@ main {
     display: inline-block;
 
     color: var(--azul);
-    background: #dcecf1;
+    background: #d5f5f5;
 
     border-radius: 999px;
 
@@ -691,13 +691,13 @@ main {
 }
 
 .btn-secundario {
-    background: #edf5f7;
+    background: #d5f5f5;
     color: var(--azul);
-    border-color: #c9dfe6;
+    border-color: #aaebf0;
 }
 
 .btn-secundario:hover {
-    background: #deedf1;
+    background: #aaebf0;
 }
 
 .btn:disabled {
@@ -713,13 +713,13 @@ main {
 .aviso {
     padding: 15px 17px;
 
-    background: #f0f7f9;
+    background: #e8ffff;
 
     border-left: 4px solid var(--celeste);
 
     border-radius: 8px;
 
-    color: #526775;
+    color: #496b7b;
 
     font-size: .88rem;
 
@@ -775,7 +775,7 @@ main {
 .campo select:focus,
 .campo textarea:focus {
     border-color: var(--celeste);
-    box-shadow: 0 0 0 3px #69a9ba25;
+    box-shadow: 0 0 0 3px rgba(87, 212, 207, .25);
 }
 
 .campo small {
@@ -820,7 +820,7 @@ legend {
 
     padding: 28px 18px;
 
-    border: 2px dashed #9bbfcb;
+    border: 2px dashed #57d4cf;
 
     background: #f5fafb;
 
@@ -832,7 +832,7 @@ legend {
 }
 
 .zona-carga:hover {
-    background: #edf6f8;
+    background: #e8ffff;
     border-color: var(--azul);
 }
 
@@ -879,7 +879,7 @@ input[type=file] {
 
     overflow: hidden;
 
-    background: #f8fafb;
+    background: #e8ffff;
 }
 
 .vista-previa-cabecera {
@@ -890,7 +890,7 @@ input[type=file] {
 
     padding: 12px 15px;
 
-    background: #edf4f6;
+    background: #d5f5f5;
 
     color: var(--azul);
 
@@ -937,8 +937,8 @@ input[type=file] {
 .login-marca {
     background: linear-gradient(
         135deg,
-        #245e74,
-        #173f52
+        #109cc3,
+        #108cb6
     );
 
     color: #fff;
