@@ -111,8 +111,6 @@ p, li {
     border-radius: 50%;
     overflow: hidden;
     background: var(--c1);
-    border: 4px solid #fff;
-    box-shadow: 0 0 0 3px #108cb6;
     animation: girarLogo 2s linear infinite;
     transform-style: preserve-3d;
 }
