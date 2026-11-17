@@ -1,0 +1,163 @@
+﻿Curso,Día,Hora de inicio,Hora de finalización,Materia,Aula
+{
+1° año,Lunes,08:00,09:20,Matemática,Aula 1
+1° año,Lunes,09:30,10:50,Lengua,Aula 2
+1° año,Lunes,11:00,12:20,Inglés,Aula 3
+1° año,Lunes,13:00,14:20,Historia,Aula 4
+1° año,Lunes,14:30,15:50,Programación,Aula 5
+1° año,Martes,08:00,09:20,Lengua,Aula 2
+1° año,Martes,09:30,10:50,Inglés,Aula 3
+1° año,Martes,11:00,12:20,Historia,Aula 4
+1° año,Martes,13:00,14:20,Programación,Aula 5
+1° año,Martes,14:30,15:50,Matemática,Aula 6
+1° año,Miércoles,08:00,09:20,Inglés,Aula 3
+1° año,Miércoles,09:30,10:50,Historia,Aula 4
+1° año,Miércoles,11:00,12:20,Programación,Aula 5
+1° año,Miércoles,13:00,14:20,Matemática,Aula 6
+1° año,Miércoles,14:30,15:50,Lengua,Aula 1
+1° año,Jueves,08:00,09:20,Historia,Aula 4
+1° año,Jueves,09:30,10:50,Programación,Aula 5
+1° año,Jueves,11:00,12:20,Matemática,Aula 6
+1° año,Jueves,13:00,14:20,Lengua,Aula 1
+1° año,Jueves,14:30,15:50,Inglés,Aula 2
+1° año,Viernes,08:00,09:20,Programación,Aula 5
+1° año,Viernes,09:30,10:50,Matemática,Aula 6
+1° año,Viernes,11:00,12:20,Lengua,Aula 1
+1° año,Viernes,13:00,14:20,Inglés,Aula 2
+1° año,Viernes,14:30,15:50,Historia,Aula 3
+}
+{
+2° año,Lunes,09:30,10:50,Biología,Aula 2
+2° año,Lunes,11:00,12:20,Matemática,Aula 3
+2° año,Lunes,13:00,14:20,Geografía,Aula 4
+2° año,Lunes,14:30,15:50,Lengua,Aula 5
+2° año,Lunes,08:00,09:20,Robótica,Aula 6
+2° año,Martes,09:30,10:50,Matemática,Aula 3
+2° año,Martes,11:00,12:20,Geografía,Aula 4
+2° año,Martes,13:00,14:20,Lengua,Aula 5
+2° año,Martes,14:30,15:50,Robótica,Aula 6
+2° año,Martes,08:00,09:20,Biología,Aula 1
+2° año,Miércoles,09:30,10:50,Geografía,Aula 4
+2° año,Miércoles,11:00,12:20,Lengua,Aula 5
+2° año,Miércoles,13:00,14:20,Robótica,Aula 6
+2° año,Miércoles,14:30,15:50,Biología,Aula 1
+2° año,Miércoles,08:00,09:20,Matemática,Aula 2
+2° año,Jueves,09:30,10:50,Lengua,Aula 5
+2° año,Jueves,11:00,12:20,Robótica,Aula 6
+2° año,Jueves,13:00,14:20,Biología,Aula 1
+2° año,Jueves,14:30,15:50,Matemática,Aula 2
+2° año,Jueves,08:00,09:20,Geografía,Aula 3
+2° año,Viernes,09:30,10:50,Robótica,Aula 6
+2° año,Viernes,11:00,12:20,Biología,Aula 1
+2° año,Viernes,13:00,14:20,Matemática,Aula 2
+2° año,Viernes,14:30,15:50,Geografía,Aula 3
+2° año,Viernes,08:00,09:20,Lengua,Aula 4
+}
+{
+3° año,Lunes,11:00,12:20,Lengua,Aula 3
+3° año,Lunes,13:00,14:20,Física,Aula 4
+3° año,Lunes,14:30,15:50,Matemática,Aula 5
+3° año,Lunes,08:00,09:20,Inglés,Aula 6
+3° año,Lunes,09:30,10:50,Historia,Aula 1
+3° año,Martes,11:00,12:20,Física,Aula 4
+3° año,Martes,13:00,14:20,Matemática,Aula 5
+3° año,Martes,14:30,15:50,Inglés,Aula 6
+3° año,Martes,08:00,09:20,Historia,Aula 1
+3° año,Martes,09:30,10:50,Lengua,Aula 2
+3° año,Miércoles,11:00,12:20,Matemática,Aula 5
+3° año,Miércoles,13:00,14:20,Inglés,Aula 6
+3° año,Miércoles,14:30,15:50,Historia,Aula 1
+3° año,Miércoles,08:00,09:20,Lengua,Aula 2
+3° año,Miércoles,09:30,10:50,Física,Aula 3
+3° año,Jueves,11:00,12:20,Inglés,Aula 6
+3° año,Jueves,13:00,14:20,Historia,Aula 1
+3° año,Jueves,14:30,15:50,Lengua,Aula 2
+3° año,Jueves,08:00,09:20,Física,Aula 3
+3° año,Jueves,09:30,10:50,Matemática,Aula 4
+3° año,Viernes,11:00,12:20,Historia,Aula 1
+3° año,Viernes,13:00,14:20,Lengua,Aula 2
+3° año,Viernes,14:30,15:50,Física,Aula 3
+3° año,Viernes,08:00,09:20,Matemática,Aula 4
+3° año,Viernes,09:30,10:50,Inglés,Aula 5
+}
+{
+4° año,Lunes,13:00,14:20,Programación,Aula 4
+4° año,Lunes,14:30,15:50,Matemática,Aula 5
+4° año,Lunes,08:00,09:20,Química,Aula 6
+4° año,Lunes,09:30,10:50,Lengua,Aula 1
+4° año,Lunes,11:00,12:20,Ciudadanía,Aula 2
+4° año,Martes,13:00,14:20,Matemática,Aula 5
+4° año,Martes,14:30,15:50,Química,Aula 6
+4° año,Martes,08:00,09:20,Lengua,Aula 1
+4° año,Martes,09:30,10:50,Ciudadanía,Aula 2
+4° año,Martes,11:00,12:20,Programación,Aula 3
+4° año,Miércoles,13:00,14:20,Química,Aula 6
+4° año,Miércoles,14:30,15:50,Lengua,Aula 1
+4° año,Miércoles,08:00,09:20,Ciudadanía,Aula 2
+4° año,Miércoles,09:30,10:50,Programación,Aula 3
+4° año,Miércoles,11:00,12:20,Matemática,Aula 4
+4° año,Jueves,13:00,14:20,Lengua,Aula 1
+4° año,Jueves,14:30,15:50,Ciudadanía,Aula 2
+4° año,Jueves,08:00,09:20,Programación,Aula 3
+4° año,Jueves,09:30,10:50,Matemática,Aula 4
+4° año,Jueves,11:00,12:20,Química,Aula 5
+4° año,Viernes,13:00,14:20,Ciudadanía,Aula 2
+4° año,Viernes,14:30,15:50,Programación,Aula 3
+4° año,Viernes,08:00,09:20,Matemática,Aula 4
+4° año,Viernes,09:30,10:50,Química,Aula 5
+4° año,Viernes,11:00,12:20,Lengua,Aula 6
+}
+{
+5° año,Lunes,14:30,15:50,Historia,Aula 5
+5° año,Lunes,08:00,09:20,Inglés,Aula 6
+5° año,Lunes,09:30,10:50,Robótica,Aula 1
+5° año,Lunes,11:00,12:20,Matemática,Aula 2
+5° año,Lunes,13:00,14:20,Física,Aula 3
+5° año,Martes,14:30,15:50,Inglés,Aula 6
+5° año,Martes,08:00,09:20,Robótica,Aula 1
+5° año,Martes,09:30,10:50,Matemática,Aula 2
+5° año,Martes,11:00,12:20,Física,Aula 3
+5° año,Martes,13:00,14:20,Historia,Aula 4
+5° año,Miércoles,14:30,15:50,Robótica,Aula 1
+5° año,Miércoles,08:00,09:20,Matemática,Aula 2
+5° año,Miércoles,09:30,10:50,Física,Aula 3
+5° año,Miércoles,11:00,12:20,Historia,Aula 4
+5° año,Miércoles,13:00,14:20,Inglés,Aula 5
+5° año,Jueves,14:30,15:50,Matemática,Aula 2
+5° año,Jueves,08:00,09:20,Física,Aula 3
+5° año,Jueves,09:30,10:50,Historia,Aula 4
+5° año,Jueves,11:00,12:20,Inglés,Aula 5
+5° año,Jueves,13:00,14:20,Robótica,Aula 6
+5° año,Viernes,14:30,15:50,Física,Aula 3
+5° año,Viernes,08:00,09:20,Historia,Aula 4
+5° año,Viernes,09:30,10:50,Inglés,Aula 5
+5° año,Viernes,11:00,12:20,Robótica,Aula 6
+5° año,Viernes,13:00,14:20,Matemática,Aula 1
+}
+{
+6° año,Lunes,08:00,09:20,Proyecto tecnológico,Aula 6
+6° año,Lunes,09:30,10:50,Lengua,Aula 1
+6° año,Lunes,11:00,12:20,Matemática,Aula 2
+6° año,Lunes,13:00,14:20,Inglés,Aula 3
+6° año,Lunes,14:30,15:50,Programación,Aula 4
+6° año,Martes,08:00,09:20,Lengua,Aula 1
+6° año,Martes,09:30,10:50,Matemática,Aula 2
+6° año,Martes,11:00,12:20,Inglés,Aula 3
+6° año,Martes,13:00,14:20,Programación,Aula 4
+6° año,Martes,14:30,15:50,Proyecto tecnológico,Aula 5
+6° año,Miércoles,08:00,09:20,Matemática,Aula 2
+6° año,Miércoles,09:30,10:50,Inglés,Aula 3
+6° año,Miércoles,11:00,12:20,Programación,Aula 4
+6° año,Miércoles,13:00,14:20,Proyecto tecnológico,Aula 5
+6° año,Miércoles,14:30,15:50,Lengua,Aula 6
+6° año,Jueves,08:00,09:20,Inglés,Aula 3
+6° año,Jueves,09:30,10:50,Programación,Aula 4
+6° año,Jueves,11:00,12:20,Proyecto tecnológico,Aula 5
+6° año,Jueves,13:00,14:20,Lengua,Aula 6
+6° año,Jueves,14:30,15:50,Matemática,Aula 1
+6° año,Viernes,08:00,09:20,Programación,Aula 4
+6° año,Viernes,09:30,10:50,Proyecto tecnológico,Aula 5
+6° año,Viernes,11:00,12:20,Lengua,Aula 6
+6° año,Viernes,13:00,14:20,Matemática,Aula 1
+6° año,Viernes,14:30,15:50,Inglés,Aula 2
+}

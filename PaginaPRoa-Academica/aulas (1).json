@@ -1,0 +1,1532 @@
+[
+  {
+    "Aula": "Aula 1",
+    "Dia": "Lunes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Lengua",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Geografía",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Inglés",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Matemática",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Biología",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Lunes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Matemática",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Matemática",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Ciencias Naturales - Biología",
+    "Profesor": "Julieta Sánchez",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Educación Artística - Danza",
+    "Profesor": "Brigitte Benítez",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciencias Sociales - Geografía",
+    "Profesor": "Alejandro Tello",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciencias Naturales - Física",
+    "Profesor": "Matías Rivero",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciudadanía y Participación",
+    "Profesor": "Rodríguez (Caliva)",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Lunes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Sistemas Operativos y Software de Aplicación",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Club de Arte",
+    "Profesor": "Ana Pistone",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Jueves",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Club de Deportes",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Entornos Digitales",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "15:40",
+    "HoraFin": "16:20",
+    "Materia": "Tutoría Física",
+    "Profesor": "",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Lunes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Ciencias Naturales - Química",
+    "Profesor": "",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Martes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Lengua",
+    "Profesor": "",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Miércoles",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Biología",
+    "Profesor": "",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Jueves",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Matemática",
+    "Profesor": "",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Viernes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Inglés",
+    "Profesor": "",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Lunes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Ciencias Naturales - Química",
+    "Profesor": "Paula Brizuela",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Martes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Ciencias Sociales - Historia",
+    "Profesor": "Lenzi (M. Emilia Naon Asef)",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Jueves",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Viernes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Ciencias Naturales - Biología",
+    "Profesor": "Matías Rivero",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Lunes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciudadanía y Participación",
+    "Profesor": "Rodríguez (Maidana)",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Martes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Educación Artística - Teatro",
+    "Profesor": "Vanesa Steiner",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Jueves",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Educación Física",
+    "Profesor": "Pamela Rubino",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Viernes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Lunes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Martes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Luciana Villarreal",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Jueves",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Algoritmos y Programación",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Viernes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Club de Arte",
+    "Profesor": "Camilone (Pistone)",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Lunes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Ricardo Baldan",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Martes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Física",
+    "Profesor": "Pamela Rubino",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 2",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Ricardo Baldan",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "16:00",
+    "HoraFin": "16:40",
+    "Materia": "Club de Deportes",
+    "Profesor": "Natalia Gilio",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Lunes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Química",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Matemática",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Lengua",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "07:40",
+    "HoraFin": "08:20",
+    "Materia": "Tutoría Física",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Educación Artística - Danza",
+    "Profesor": "Brigitte Benítez",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Jueves",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Lunes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Química",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Jueves",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Historia",
+    "Profesor": "Rocío Andrada",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Física",
+    "Profesor": "Matías Rivero",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Lunes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Programación I",
+    "Profesor": "Verónica Toledo",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Club de Arte",
+    "Profesor": "Ana Pistone",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Geografía",
+    "Profesor": "Marisol Arce",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Martínez (Toledo)",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Rodríguez (Caliva)",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Lunes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Rodríguez (Caliva)",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Estructuras y Almacenamiento de Datos II",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Geografía",
+    "Profesor": "Marisol Arce",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Lunes",
+    "HoraInicio": "16:00",
+    "HoraFin": "16:40",
+    "Materia": "Tutoría Historia",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Martes",
+    "HoraInicio": "16:00",
+    "HoraFin": "17:00",
+    "Materia": "Educación Física",
+    "Profesor": "Naiara Liendo",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "16:00",
+    "HoraFin": "16:40",
+    "Materia": "Tutoría Inglés",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Viernes",
+    "HoraInicio": "16:00",
+    "HoraFin": "16:40",
+    "Materia": "Tutoría Geografía",
+    "Profesor": "",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "08:00",
+    "HoraFin": "08:40",
+    "Materia": "Tutoría Inglés",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "08:40",
+    "HoraFin": "09:20",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "08:00",
+    "HoraFin": "08:40",
+    "Materia": "Estructuras y Almacenamiento de Datos III",
+    "Profesor": "Martínez (Toledo)",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "08:40",
+    "HoraFin": "09:20",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Rocío Andrada",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Educación Física",
+    "Profesor": "Pamela Rubino",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Rocío Andrada",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Miércoles",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Inglés",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Tutoría Historia",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Lunes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Programación II",
+    "Profesor": "Verónica Toledo",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Educación Artística - Artes Visuales",
+    "Profesor": "Ana Pistone",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Inglés",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Jueves",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Martínez, B. (Villarreal)",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Viernes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Club de Deportes",
+    "Profesor": "Natalia Gilio",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Estructuras y Almacenamiento de Datos III",
+    "Profesor": "Martínez (Toledo)",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Educación Física",
+    "Profesor": "Pamela Rubino",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Club de Arte",
+    "Profesor": "Camilone (Pistone)",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "14:50",
+    "HoraFin": "16:10",
+    "Materia": "Biología",
+    "Profesor": "Matías Rivero",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "14:50",
+    "HoraFin": "16:10",
+    "Materia": "Biología",
+    "Profesor": "Matías Rivero",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Tutoría Geografía",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Lunes",
+    "HoraInicio": "16:20",
+    "HoraFin": "17:00",
+    "Materia": "Tutoría Lengua",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Martes",
+    "HoraInicio": "16:20",
+    "HoraFin": "17:00",
+    "Materia": "Tutoría Biología",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "16:10",
+    "HoraFin": "16:50",
+    "Materia": "Tutoría Matemática",
+    "Profesor": "",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Lunes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Martes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Educación Física",
+    "Profesor": "Natalia Gilio",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Física",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Jueves",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Martínez (Villarreal)",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Viernes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Educación Física",
+    "Profesor": "Natalia Gilio",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Lunes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Jueves",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Viernes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:10",
+    "Materia": "Club de Deportes",
+    "Profesor": "Natalia Gilio",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Viernes",
+    "HoraInicio": "10:10",
+    "HoraFin": "10:50",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Lunes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Psicología",
+    "Profesor": "Gabriela Rodríguez",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Gabriela Rodríguez",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Educación Artística - Música",
+    "Profesor": "Damián Watman (Cros)",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "11:00",
+    "HoraFin": "11:40",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Programación",
+    "Profesor": "Verónica Toledo",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Lunes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Club de Arte",
+    "Profesor": "Brigitte Benítez",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Robótica",
+    "Profesor": "Baldán, Ricardo",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Historia",
+    "Profesor": "Camila Lenzi",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Jueves",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Viernes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:00",
+    "Materia": "Programación",
+    "Profesor": "Verónica Toledo",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Lunes",
+    "HoraInicio": "14:50",
+    "HoraFin": "16:10",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "14:50",
+    "HoraFin": "15:30",
+    "Materia": "Robótica",
+    "Profesor": "Baldán, Ricardo",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Física",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:50",
+    "HoraFin": "16:10",
+    "Materia": "Historia",
+    "Profesor": "Camila Lenzi",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Lunes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Martes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Programación IV",
+    "Profesor": "Verónica Toledo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Jueves",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "08:00",
+    "HoraFin": "09:20",
+    "Materia": "Filosofía",
+    "Profesor": "Gabriela Rodríguez",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Club de Deportes",
+    "Profesor": "Naiara Liendo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Martes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Desarrollo de App Móviles",
+    "Profesor": "Verónica Toledo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Miércoles",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Programación IV",
+    "Profesor": "Verónica Toledo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:50",
+    "Materia": "Desarrollo de App Móviles",
+    "Profesor": "Verónica Toledo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Martes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Programación IV",
+    "Profesor": "Verónica Toledo",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Testing",
+    "Profesor": "Sagristani, Andrés",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "11:00",
+    "HoraFin": "13:00",
+    "Materia": "Testing",
+    "Profesor": "Sagristani, Andrés",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Martes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Química",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Educación Artística - Teatro",
+    "Profesor": "Brigitte Benítez (Esteiner)",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Taller de Inglés Aplicado",
+    "Profesor": "Lucas Schiavonne",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Informática",
+    "Dia": "Viernes",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Javier Gutiérrez",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Lunes",
+    "HoraInicio": "14:50",
+    "HoraFin": "15:30",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "14:50",
+    "HoraFin": "15:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:50",
+    "HoraFin": "15:30",
+    "Materia": "Educación Artística - Teatro",
+    "Profesor": "Brigitte Benítez (Esteiner)",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Ciudadanía y Política",
+    "Profesor": "Camila Lenzi",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Lunes",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Matemática",
+    "Profesor": "Eugenia Cuello",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Martes",
+    "HoraInicio": "15:30",
+    "HoraFin": "16:10",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "16:20",
+    "HoraFin": "17:40",
+    "Materia": "Ciudadanía y Política",
+    "Profesor": "Camila Lenzi",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "10:40",
+    "HoraFin": "11:20",
+    "Materia": "Club de Deportes",
+    "Profesor": "Naiara Liendo",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 3",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:20",
+    "HoraFin": "12:40",
+    "Materia": "Historia",
+    "Profesor": "Rocío Andrada",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:10",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "15:10",
+    "HoraFin": "16:10",
+    "Materia": "Educación Física",
+    "Profesor": "Naiara Liendo",
+    "Curso": "3.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:20",
+    "HoraFin": "14:40",
+    "Materia": "Diseño de Interfaces y Usabilidad",
+    "Profesor": "Verónica Toledo",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:50",
+    "HoraFin": "15:30",
+    "Materia": "Diseño de Interfaces y Usabilidad",
+    "Profesor": "Verónica Toledo",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Jueves",
+    "HoraInicio": "13:20",
+    "HoraFin": "15:30",
+    "Materia": "Historia",
+    "Profesor": "Camila Lenzi",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Aula 4",
+    "Dia": "Viernes",
+    "HoraInicio": "13:20",
+    "HoraFin": "15:30",
+    "Materia": "Geografía",
+    "Profesor": "Alejandro Tello",
+    "Curso": "4.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:10",
+    "Materia": "Física",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Miércoles",
+    "HoraInicio": "10:10",
+    "HoraFin": "10:50",
+    "Materia": "Programación",
+    "Profesor": "Verónica Toledo",
+    "Curso": "5.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "09:30",
+    "HoraFin": "10:10",
+    "Materia": "Filosofía",
+    "Profesor": "Gabriela Rodríguez",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Viernes",
+    "HoraInicio": "10:10",
+    "HoraFin": "10:50",
+    "Materia": "Testing",
+    "Profesor": "Sagristani, Andrés",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:00",
+    "HoraFin": "11:40",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Miércoles",
+    "HoraInicio": "11:40",
+    "HoraFin": "13:00",
+    "Materia": "Química",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Lunes",
+    "HoraInicio": "11:00",
+    "HoraFin": "12:20",
+    "Materia": "Club de Arte",
+    "Profesor": "Damián Watman (Pistone)",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Lunes",
+    "HoraInicio": "12:20",
+    "HoraFin": "13:00",
+    "Materia": "Formación para la Vida y el Trabajo",
+    "Profesor": "Rocío Andrada",
+    "Curso": "6.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:10",
+    "Materia": "Estructuras y Almacenamiento de Datos I",
+    "Profesor": "Luciana Villarreal",
+    "Curso": "2.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Jueves",
+    "HoraInicio": "15:10",
+    "HoraFin": "15:50",
+    "Materia": "Tutoría Historia",
+    "Profesor": "Emilia Naom",
+    "Curso": "2.º"
+  }
+]

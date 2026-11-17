@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ProA - Área Académica</title>
+
+    <link rel="stylesheet" href="diseño/prueba.css">
+    <script src="diseño/prueba.js" defer></script>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <section>
+          
+        </section>
+
+
+       
+        <aside class="sidebar" id="sidebar">
+
+            <div class="logo">
+                <img src="imagenes/image (1).png" alt="Logo de ProA">
+            </div>
+
+           <nav class="menu">
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Aulas">Aulas</a></li>
+        <li><a href="#Horarios">Horarios</a></li>
+        <li><a href="#Notas">Notas</a></li>
+        <li><a href="#Asistencia">Asistencias</a></li>
+        <li><a href="#Comunicados">Comunicados</a></li>
+        <li><a href="#Mesa de examen">Mesa de examen</a></li>
+        <li><a href="../PaginaPRoA-PaginaPrincipal/Index.html">Volver</a></li>
+
+    </ul>
+</nav>
+          
+            <div class="sidebar-pie">
+                <h2>PROA</h2>
+                <p>ALTA GRACIA</p>
+            </div>
+
+        </aside>
+
+
+     
+        <div class="contenido-principal">
+
+
+            <header class="barra-superior">
+
+                <span>Área Académica</span>
+
+                <div class="usuario">
+                    <span>◉</span>
+                    <span>Estudiante</span>
+                </div>
+
+            </header>
+
+
+      
+            <main class="panel-principal">
+
+
+               
+<section id="Inicio" class="seccion visible">
+
+    <div class="bienvenida">
+        <h1>Área Académica</h1>
+
+        <p>
+            En este espacio podrás consultar tus horarios,
+            notas, asistencias y aulas.
+        </p>
+    </div>
+
+    <div class="accesos">
+
+        <div class="tarjeta">
+            <div class="icono">📅</div>
+            <h3>Horarios</h3>
+            <p>Consultar horarios por curso</p>
+            <a href="#Horarios">Consultar</a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">📝</div>
+            <h3>Notas</h3>
+            <p>Consultar mis notas</p>
+            <a href="#Notas" data-acceso="Notas">Consultar</a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">✓</div>
+            <h3>Asistencias</h3>
+            <p>Consultar mi asistencia</p>
+            <a href="#Asistencia" data-acceso="Asistencia">Consultar</a>
+        </div>
+
+        <div class="tarjeta">
+            <div class="icono">🏫</div>
+            <h3>Aulas</h3>
+            <p>Consultar las aulas</p>
+            <a href="#Aulas">Consultar</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="Aulas" class="seccion">
+
+    <h2>Aulas</h2>
+    <p>Seleccioná el espacio que querés consultar:</p>
+
+    <div id="submenuAulas" class="submenu-aulas">
+
+        <button class="boton-aula" data-aula="Aula 1">Aula 1</button>
+        <button class="boton-aula" data-aula="Aula 2">Aula 2</button>
+        <button class="boton-aula" data-aula="Aula 3">Aula 3</button>
+        <button class="boton-aula" data-aula="Aula 4">Aula 4</button>
+        <button class="boton-aula" data-aula="Info-Arte">Info-Arte</button>
+        <button class="boton-aula" data-aula="Informática">Informática</button>
+        <button class="boton-aula" data-aula="SUM / Patio">SUM / Patio</button>
+        <button class="boton-aula" data-aula="Laboratorio de Ciencias"> Laboratorio de Ciencias</button>
+    </div>
+
+    <div id="contenedorAulas" class="contenedor-aulas">
+        <p>Seleccioná un aula para consultar sus horarios.</p>
+    </div>
+
+</section>      
+
+                <section id="Horarios" class="seccion">
+
+                    <h2>Horarios</h2>
+                
+                    <p>Seleccioná el año que querés consultar:</p>
+                
+                    <div id="submenuHorarios" class="submenu-horarios">
+                
+                        <button data-curso="1">Primer Año</button>
+                        <button data-curso="2">Segundo Año</button>
+                        <button data-curso="3">Tercer Año</button>
+                        <button data-curso="4">Cuarto Año</button>
+                        <button data-curso="5">Quinto Año</button>
+                        <button data-curso="6">Sexto Año</button>
+                
+                    </div>
+                
+                    <div id="contenedorHorario" class="contenedor-horario">
+                
+                        <p>Seleccioná un año para ver sus horarios.</p>
+                
+                    </div>
+                
+                </section>
+
+                
+                <section id="identificacion" class="seccion formulario-acceso" hidden>
+
+                    <h2>Identificación institucional</h2>
+
+                    <p>
+                        Completá tus datos para continuar a la plataforma.
+                    </p>
+
+                    <form id="formularioUsuario">
+
+                        <label for="nombre">Nombre</label>
+                        <input
+                            type="text"
+                            id="nombre"
+                            required
+                            placeholder="Ingresá tu nombre"
+                        >
+
+
+                        <label for="apellido">Apellido</label>
+                        <input
+                            type="text"
+                            id="apellido"
+                            required
+                            placeholder="Ingresá tu apellido"
+                        >
+
+
+                        <label for="correo">Correo institucional</label>
+                        <input
+                            type="email"
+                            id="correo"
+                            required
+                            placeholder="Ingresá tu correo institucional"
+                        >
+
+
+                        <p id="mensajeAcceso" role="status"></p>
+
+                        <button type="submit">Continuar</button>
+
+                        <button type="button" class="boton-secundario" onclick="cancelarAcceso()">
+                            Cancelar
+                        </button>
+
+                    </form>
+
+                </section>
+
+
+
+              
+                <section id="Notas" class="seccion">
+
+                    <h2>📝 Mis notas</h2>
+
+                    <p>
+                        Para consultar tus calificaciones,
+                        ingresá a la Libreta Digital.
+                    </p>
+
+                    <a href="https://libretadigital.cba.gov.ar/login/"
+   target="_blank"
+   class="boton-libreta">
+   Ir a la Libreta Digital
+</a>
+                </section>
+
+
+               
+
+
+<section id="Asistencia" class="seccion">
+
+    <h2>✓ Mis asistencias</h2>
+
+    <p>
+        Para consultar tus asistencias,
+        ingresá a la Libreta Digital.
+    </p>
+
+    <a href="https://libretadigital.cba.gov.ar/login/"
+   class="boton-libreta"
+   target="_blank"
+   rel="noopener noreferrer">
+    Ir a la Libreta Digital
+</a>
+</section>
+
+               
+                <section id="Comunicados" class="seccion">
+
+                    <h2>♧ Comunicados</h2>
+
+                    <p>
+                        En esta sección se publicarán
+                        los comunicados de la institución.
+                    </p>
+
+                </section>
+
+
+
+      
+                <section id="Mesa de examen" class="seccion">
+
+                    <h2>📋 Próximas evaluaciones</h2>
+
+                    <p>
+                        En esta sección se podrán consultar
+                        las próximas evaluaciones.
+                    </p>
+
+                </section>
+
+
+
+
+            </main>
+
+
+            <footer>
+                <p>PROA - Alta Gracia</p>
+            </footer>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>

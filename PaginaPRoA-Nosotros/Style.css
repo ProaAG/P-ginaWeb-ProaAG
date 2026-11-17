@@ -1,0 +1,503 @@
+  @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
+
+:root {
+    --c1: #11aeda;
+    --c2: #57d4cf;
+    --c3: #aaebf0;
+    --c4: #d5f5f5;
+    --c5: #e8ffff;
+    --tinta: #123b50;
+    --menu: 270px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 400 1.1rem/1.7 "EB Garamond", Georgia, serif;
+    color: var(--tinta);
+    background: linear-gradient(
+        90deg,
+        rgba(170, 235, 240, 1) 0%,
+        rgba(87, 212, 207, 1) 68%,
+        rgba(16, 149, 194, 1) 100%
+    );
+}
+
+button {
+    font: inherit;
+}
+
+:focus-visible {
+    outline: 3px solid var(--tinta);
+    outline-offset: 2px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 1.2;
+    margin: 0 0 6px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .15);
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin: 36px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid var(--c1);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 20px 0 6px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p, li {
+    max-width: 75ch;
+}
+
+.subtitulo {
+    margin: 0 0 24px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--tinta);
+    text-decoration: none;
+}
+
+.volver:hover {
+    color: var(--c1);
+}
+
+
+/* Menú lateral */
+
+.menu-lateral {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: var(--menu);
+    background: #11aeda;
+    border-right: 5px solid #108cb6;
+    padding: 24px 16px;
+    overflow-y: auto;
+    box-shadow: 3px 0 12px rgba(0, 0, 0, .12);
+}
+
+.menu-cabecera {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--c1);
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 3px #108cb6;
+    animation: girarLogo 2s linear infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes girarLogo {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-boton {
+    display: none;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral .sub {
+    margin: 2px 0 6px 14px;
+    padding-left: 12px;
+    border-left: 3px solid #108cb6;
+}
+
+.menu-lateral a {
+    display: block;
+    padding: 9px 14px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background .3s;
+}
+
+.menu-lateral a:hover {
+    background: #108cb6;
+}
+
+.menu-lateral a.activo {
+    background: #087fa8;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* Contenido */
+
+main {
+    margin-left: var(--menu);
+    padding: 40px;
+    max-width: calc(var(--menu) + 980px);
+}
+
+footer {
+    margin-left: var(--menu);
+    background: #109cc3;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    font-weight: 600;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 0;
+}
+
+.enlaces li {
+    margin-bottom: 10px;
+}
+
+.enlaces a {
+    font-weight: 700;
+    color: #087fa8;
+}
+
+.enlaces a:hover {
+    color: #075d7a;
+}
+
+.linea-tiempo {
+    list-style: none;
+    padding-left: 0;
+    border-left: 4px solid var(--c1);
+}
+
+.linea-tiempo li {
+    padding: 4px 0 12px 18px;
+}
+
+
+/* Carrusel */
+
+.carrusel {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+    max-width: 900px;
+    margin: 0 0 28px;
+}
+
+.slide {
+    grid-column: 2;
+    grid-row: 1;
+    display: none;
+    margin: 0;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--c3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+}
+
+.slide.activo {
+    display: block;
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ctrl {
+    grid-row: 1;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: #109cc3;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.ctrl:hover {
+    background: #075d7a;
+}
+
+.ant {
+    grid-column: 1;
+}
+
+.sig {
+    grid-column: 3;
+}
+
+.puntos {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.puntos button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 2px solid #109cc3;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.puntos .activo {
+    background: #109cc3;
+}
+
+
+/* Galería de fotos */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+    max-width: 1000px;
+    margin: 24px 0 30px;
+}
+
+.galeria a {
+    display: block;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: var(--c3);
+    box-shadow: 0 3px 10px rgba(15, 43, 70, .15);
+}
+
+.galeria img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .25s;
+}
+
+.galeria a:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Docentes */
+
+.banner {
+    background:
+        radial-gradient(rgba(255, 255, 255, .35) 1.5px, transparent 1.5px) 0 0/10px 10px,
+        #109cc3;
+    color: #fff;
+    margin: -40px -40px 0;
+    padding: 36px 40px 70px;
+}
+
+.banner h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    text-transform: uppercase;
+}
+
+.banner .subtitulo {
+    margin: 0;
+}
+
+.banner .volver {
+    color: #fff;
+}
+
+.tabla {
+    background: #fff;
+    border-radius: 32px 32px 0 0;
+    margin: -36px -40px 0;
+    padding: 24px 40px 40px;
+    overflow-x: auto;
+    position: relative;
+}
+
+table {
+    width: 100%;
+    min-width: 560px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--c4);
+    vertical-align: top;
+}
+
+thead th {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--c1);
+}
+
+tbody td:first-child {
+    font-weight: 600;
+    width: 38%;
+}
+
+td:last-child,
+thead th:last-child {
+    background: var(--c3);
+}
+
+thead th:last-child {
+    border-radius: 16px 16px 0 0;
+}
+
+tbody tr:last-child td:last-child {
+    border-radius: 0 0 16px 16px;
+}
+
+tr.area th {
+    background: var(--c4);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+/* Celular */
+
+@media (max-width: 800px) {
+
+    .menu-lateral {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        padding: 10px 16px;
+        border-right: 0;
+        border-bottom: 5px solid #108cb6;
+        overflow: visible;
+        z-index: 10;
+    }
+
+    .menu-cabecera {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo {
+        width: 56px;
+        height: 56px;
+        border-width: 2px;
+    }
+
+    .menu-boton {
+        display: block;
+        background: #108cb6;
+        color: #fff;
+        border: 0;
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .menu-lateral nav {
+        display: none;
+    }
+
+    .menu-lateral.abierto nav {
+        display: block;
+        margin-top: 10px;
+    }
+
+    main,
+    footer {
+        margin-left: 0;
+    }
+
+    main {
+        padding: 24px 18px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .carrusel {
+        gap: 6px;
+    }
+
+    .ctrl {
+        width: 32px;
+        height: 32px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 12px;
+    }
+
+    .galeria a {
+        height: 140px;
+    }
+
+    .banner {
+        margin: -24px -18px 0;
+        padding: 24px 18px 50px;
+    }
+
+    .tabla {
+        margin: -30px -18px 0;
+        padding: 20px 18px 30px;
+    }
+}

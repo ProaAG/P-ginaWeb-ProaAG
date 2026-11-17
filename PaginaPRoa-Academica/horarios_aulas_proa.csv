@@ -1,0 +1,143 @@
+﻿aula;dia;hora_inicio;hora_fin;materia;profesor;curso
+Aula 1;Lunes;08:30;10:30;Lengua y Literatura;Rogna;1.º
+SUM / Patio;Lunes;10:40;12:40;Educación Artística - Danza;Brigitte Benítez;1.º
+Aula 1;Lunes;13:00;14:20;Educación Tecnológica;Celeste Bertaina;1.º
+SUM / Patio;Lunes;14:30;15:50;Educación Física;Antonelli;1.º
+Aula 1;Martes;08:30;10:30;Matemática;Celeste Bertaina;1.º
+Aula 1;Martes;10:40;12:40;Ciencias Sociales - Geografía;Alejandro Tello;1.º
+Aula 1;Martes;13:00;14:20;Sistemas Operativos y Software de Aplicación;Andrés Sagristani;1.º
+Info-Arte;Martes;14:30;15:50;Club de Arte;Ana Pistone;1.º
+Aula 1;Miércoles;08:30;10:30;Inglés;Evelin Chanquiá;1.º
+Aula 1;Miércoles;10:40;12:40;Ciencias Naturales - Física;Matías Rivero;1.º
+Taller de Ciencias;Miércoles;13:00;14:20;Club de Ciencias;Celeste Bertaina;1.º
+SUM / Patio;Miércoles;14:30;15:50;Educación Física;Antonelli;1.º
+Aula 1;Jueves;08:30;09:50;Matemática;Celeste Bertaina;1.º
+Aula 1;Jueves;09:50;10:30;Lengua y Literatura;Rogna;1.º
+Aula 1;Jueves;10:40;11:20;Lengua y Literatura;Rogna;1.º
+Aula 1;Jueves;11:20;12:40;Ciencias Sociales - Geografía;Alejandro Tello;1.º
+Aula 1;Jueves;13:00;14:20;Educación Tecnológica;Celeste Bertaina;1.º
+SUM / Patio;Jueves;14:30;15:50;Club de Deportes;Antonelli;1.º
+Aula 1;Viernes;08:30;10:30;Ciencias Naturales - Biología;Julieta Sánchez;1.º
+Aula 1;Viernes;10:40;12:40;Ciudadanía y Participación;Rodríguez (Caliva);1.º
+Aula 1;Viernes;13:00;14:20;Taller de Inglés Aplicado;Lucas Schiavone;1.º
+Aula 1;Viernes;14:30;15:50;Entornos Digitales;Andrés Sagristani;1.º
+Aula 2;Lunes;08:30;10:30;Ciencias Naturales - Química;Paula Brizuela;2.º
+Aula 2;Lunes;10:40;12:40;Ciudadanía y Participación;Rodríguez (Maidana);2.º
+Aula 2;Lunes;13:00;14:20;Matemática;Eugenia Cuello;2.º
+Aula 2;Lunes;14:30;15:50;Educación Tecnológica;Ricardo Baldán;2.º
+Aula 2;Martes;08:30;10:30;Lengua y Literatura;Rogna;2.º
+Aula 2;Martes;10:40;12:40;Matemática;Eugenia Cuello;2.º
+Aula 2;Martes;13:00;14:20;Club de Ciencias;Luciana Villarreal;2.º
+SUM / Patio;Martes;14:30;15:50;Educación Física;Pamela Rubino;2.º
+Aula 2;Miércoles;08:30;10:30;Ciencias Sociales - Historia;Lenzi (M. Emilia Naón Asef);2.º
+SUM / Patio;Miércoles;10:40;12:40;Educación Artística - Teatro;Steiner (Rossetti);2.º
+Aula 2;Miércoles;13:00;14:20;Taller de Inglés Aplicado;Lucas Schiavone;2.º
+Aula 2;Miércoles;14:30;15:50;Educación Tecnológica;Ricardo Baldán;2.º
+Aula 2;Jueves;08:30;09:50;Lengua y Literatura;Rogna;2.º
+Aula 2;Jueves;09:50;10:30;Educación Física;Pamela Rubino;2.º
+Aula 2;Jueves;10:40;11:20;Educación Física;Pamela Rubino;2.º
+Aula 2;Jueves;11:20;12:40;Ciencias Sociales - Historia;Lenzi (M. Emilia Naón Asef);2.º
+Taller;Jueves;13:00;14:20;Algoritmos y Programación;Andrés Sagristani;2.º
+Taller;Jueves;14:30;15:50;Estructuras y Almacenamiento de Datos I;Luciana Villarreal;2.º
+Aula 2;Viernes;08:30;10:30;Ciencias Naturales - Biología;Matías Rivero;2.º
+Aula 2;Viernes;10:40;12:40;Inglés;Evelin Chanquiá;2.º
+Aula 2;Viernes;13:00;14:20;Club de Arte;Camilone (Pistone);2.º
+SUM / Patio;Lunes;08:30;10:30;Educación Artística - Danza;Brigitte Benítez;3.º
+Aula 3;Lunes;10:40;12:40;Lengua y Literatura;Rogna;3.º
+Aula 3;Lunes;13:00;14:20;Programación I;Verónica Toledo;3.º
+Aula 3;Lunes;14:30;15:50;Formación para la Vida y el Trabajo;Rodríguez (Caliva);3.º
+Aula 3;Martes;08:30;10:30;Matemática;Eugenia Cuello;3.º
+Aula 3;Martes;10:40;12:40;Química;Celeste Bertaina;3.º
+Info-Arte;Martes;13:00;14:20;Club de Arte;Ana Pistone;3.º
+Aula 1;Martes;14:30;15:50;Estructuras y Almacenamiento de Datos II;Andrés Sagristani;3.º
+Aula 3;Miércoles;08:30;09:50;Lengua y Literatura;Rogna;3.º
+SUM / Patio;Miércoles;09:50;10:30;Club de Deportes;Naiara Liendo;3.º
+Aula 3;Miércoles;10:40;12:40;Historia;Rocío Andrada;3.º
+Aula 3;Miércoles;13:00;14:20;Geografía;Marisol Arce;3.º
+Aula 3;Miércoles;14:30;15:50;Taller de Inglés Aplicado;Lucas Schiavone;3.º
+Aula 3;Jueves;08:30;09:50;Matemática;Eugenia Cuello;3.º
+Aula 3;Jueves;10:40;12:40;Historia / Educación Tecnológica;Rocío Andrada / Martínez (Toledo);3.º
+Taller;Jueves;13:00;14:20;Educación Tecnológica;Martínez (Toledo);3.º
+Taller;Jueves;14:30;15:50;Club de Ciencias;Andrés Sagristani;3.º
+Aula 3;Viernes;08:30;09:50;Inglés;Evelin Chanquiá;3.º
+Aula 3;Viernes;10:40;12:40;Física;Matías Rivero;3.º
+Aula 3;Viernes;13:00;14:20;Formación para la Vida y el Trabajo;Rodríguez (Caliva);3.º
+Aula 3;Viernes;14:30;15:50;Geografía;Marisol Arce;3.º
+Aula 4;Lunes;08:00;08:40;Tutoría de Inglés;—;4.º
+Aula 4;Lunes;08:40;09:20;Taller de Inglés Aplicado;Lucas Schiavone;4.º
+Aula 4;Lunes;09:30;10:10;Taller de Inglés Aplicado;Lucas Schiavone;4.º
+Aula 4;Lunes;10:10;10:50;Programación II;Verónica Toledo;4.º
+Informática;Lunes;11:00;12:40;Programación II;Verónica Toledo;4.º
+Aula 4;Lunes;13:20;14:40;Lengua y Literatura;Rogna;4.º
+Aula 4;Lunes;14:50;16:10;Biología;Matías Rivero;4.º
+Aula 4;Martes;08:00;08:40;Estructuras y Almacenamiento de Datos III;Martínez (Toledo);4.º
+Aula 4;Martes;08:40;10:50;Formación para la Vida y el Trabajo;Rocío Andrada;4.º
+Info-Arte;Martes;11:00;12:40;Educación Artística - Artes Visuales;Ana Pistone;4.º
+Aula 4;Martes;13:20;14:40;Lengua y Literatura;Rogna;4.º
+Aula 4;Martes;14:50;16:10;Biología;Matías Rivero;4.º
+SUM / Patio;Miércoles;08:00;09:20;Educación Física;Pamela Rubino;4.º
+Aula 4;Miércoles;09:30;10:50;Inglés;Lucas Schiavone;4.º
+Aula 4;Miércoles;11:00;11:40;Inglés;Lucas Schiavone;4.º
+Aula 4;Miércoles;11:40;13:00;Estructuras y Almacenamiento de Datos III;Martínez (Toledo);4.º
+Aula 4;Miércoles;13:20;14:40;Diseño de Interfaces y Usabilidad;Verónica Toledo;4.º
+Aula 4;Miércoles;14:50;15:30;Diseño de Interfaces y Usabilidad;Verónica Toledo;4.º
+Aula 4;Jueves;09:30;10:10;Tutoría de Historia;—;4.º
+Aula 4;Jueves;10:10;10:50;Club de Ciencias;Martínez, B. (Villarreal);4.º
+Informática;Jueves;11:00;11:40;Club de Ciencias;Martínez (Villarreal);4.º
+Aula 4;Jueves;13:20;14:40;Historia;Camila Lenzi;4.º
+Aula 4;Jueves;14:50;16:10;Historia;Camila Lenzi;4.º
+Aula 4;Viernes;08:00;09:20;Matemática;Eugenia Cuello;4.º
+Aula 4;Viernes;09:30;10:10;Matemática;Eugenia Cuello;4.º
+SUM / Patio;Viernes;10:10;10:50;Club de Deportes;Natalia Gilio;4.º
+Aula 4;Viernes;13:20;14:40;Geografía;Alejandro Tello;4.º
+Aula 4;Viernes;14:50;15:30;Geografía;Alejandro Tello;4.º
+Info-Arte;Lunes;08:00;08:40;Inglés;Evelin Chanquiá;5.º
+Info-Arte;Lunes;09:30;10:50;Inglés;Evelin Chanquiá;5.º
+Taller de Ciencias;Lunes;11:00;12:40;Psicología;Gabriela Rodríguez;5.º
+Info-Arte;Lunes;13:20;14:40;Club de Arte;Brigitte Benítez;5.º
+Info-Arte;Lunes;14:50;16:10;Lengua y Literatura;Rogna;5.º
+SUM / Patio;Martes;08:00;09:20;Educación Física;Natalia Gilio;5.º
+Info-Arte;Martes;09:30;10:50;Ética y Legislación;Débora Bustamante;5.º
+Info-Arte;Martes;11:00;11:40;Ética y Legislación;Débora Bustamante;5.º
+Info-Arte;Martes;13:20;14:40;Robótica;Baldán, Ricardo;5.º
+Aula 3;Martes;14:50;15:30;Robótica;Baldán, Ricardo;5.º
+Info-Arte;Miércoles;08:00;09:20;Física;Celeste Bertaina;5.º
+Info-Arte;Miércoles;09:30;10:10;Física;Celeste Bertaina;5.º
+Info-Arte;Miércoles;10:10;10:50;Programación;Verónica Toledo;5.º
+Info-Arte;Miércoles;11:00;12:40;Formación para la Vida y el Trabajo;Gabriela Rodríguez;5.º
+Info-Arte;Miércoles;13:20;14:40;Historia;Camila Lenzi;5.º
+Info-Arte;Miércoles;14:50;15:30;Historia;Camila Lenzi;5.º
+Informática;Jueves;08:00;09:20;Club de Ciencias;Martínez (Villarreal);5.º
+SUM / Patio;Jueves;09:30;10:50;Taller de Inglés Aplicado;Lucas Schiavone;5.º
+Aula 4;Jueves;11:00;12:40;Educación Artística - Música;Damián Waitman (Cross);5.º
+Info-Arte;Jueves;13:20;14:40;Matemática;Eugenia Cuello;5.º
+Info-Arte;Jueves;14:50;16:10;Geografía;Alejandro Tello;5.º
+SUM / Patio;Viernes;08:00;09:20;Educación Física;Natalia Gilio;5.º
+SUM / Patio;Viernes;09:30;10:10;Club de Deportes;Natalia Gilio;5.º
+Aula 4;Viernes;10:10;10:50;Matemática;Eugenia Cuello;5.º
+Aula 4;Viernes;11:00;11:40;Matemática;Eugenia Cuello;5.º
+Informática;Viernes;11:40;12:40;Programación;Verónica Toledo;5.º
+Taller de Ciencias;Lunes;08:00;09:20;Matemática;Eugenia Cuello;6.º
+SUM / Patio;Lunes;09:30;10:50;Club de Deportes;Naiara Liendo;6.º
+Info-Arte;Lunes;11:00;11:40;Club de Arte;Waitman (Pistone);6.º
+Taller de Ciencias;Lunes;11:40;13:00;Formación para la Vida y el Trabajo;Rocío Andrada;6.º
+Taller de Ciencias;Lunes;13:20;14:40;Formación para la Vida y el Trabajo;Rocío Andrada;6.º
+Taller de Ciencias;Lunes;14:50;16:10;Matemática;Eugenia Cuello;6.º
+SUM / Patio;Martes;08:00;09:20;Educación Física;Antonelli;6.º
+Informática;Martes;09:30;10:50;Desarrollo de Aplicaciones Móviles;Verónica Toledo;6.º
+Informática;Martes;11:00;12:40;Programación IV;Verónica Toledo;6.º
+Taller de Ciencias;Martes;13:20;14:40;Química;Celeste Bertaina;6.º
+Aula 3;Martes;14:50;16:10;Lengua y Literatura;Rogna;6.º
+Informática;Miércoles;08:00;09:20;Programación IV;Verónica Toledo;6.º
+Taller de Ciencias;Miércoles;09:30;10:10;Lengua y Literatura;Rogna;6.º
+Taller de Ciencias;Miércoles;11:00;12:40;Química;Celeste Bertaina;6.º
+SUM / Patio;Miércoles;13:20;14:40;Educación Artística - Teatro;Benítez (Steiner) (Rossetti);6.º
+SUM / Patio;Miércoles;14:50;16:10;Educación Artística - Teatro / Ciudadanía y Política;Benítez (Steiner) (Rossetti) / Camila Lenzi;6.º
+SUM / Patio;Jueves;08:00;09:20;Educación Física;Antonelli;6.º
+Informática;Jueves;09:30;10:50;Desarrollo de Aplicaciones Móviles;Verónica Toledo;6.º
+Taller de Ciencias;Jueves;11:00;12:40;Inglés;Evelin Chanquiá;6.º
+Taller de Ciencias;Jueves;13:20;14:40;Taller de Inglés Aplicado;Lucas Schiavone;6.º
+Info-Arte;Viernes;08:00;09:20;Filosofía;Gabriela Rodríguez;6.º
+Info-Arte;Viernes;09:30;10:50;Filosofía / Testing;Gabriela Rodríguez / Andrés Sagristani;6.º
+Info-Arte;Viernes;11:00;12:40;Testing;Andrés Sagristani;6.º
+Informática;Viernes;13:20;14:40;Club de Ciencias;Javier Gutiérrez;6.º

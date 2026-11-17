@@ -1,0 +1,183 @@
+
+[
+  {
+    "Aula": "Aula 1",
+    "Dia": "Lunes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Educación Artística - Danza",
+    "Profesor": "Brigitte Benítez",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Lunes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Lunes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Matemática",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciencias Sociales - Geografía",
+    "Profesor": "Alejandro Tello",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Martes",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Sistemas Operativos y Software de Aplicación",
+    "Profesor": "Andrés Sagristani",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Info-Arte",
+    "Dia": "Martes",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Club de Arte",
+    "Profesor": "Ana Pistone",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Inglés",
+    "Profesor": "Evelin Chanquiá",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Miércoles",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciencias Naturales - Física",
+    "Profesor": "Matías Rivero",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Laboratorio de Ciencias",
+    "Dia": "Miércoles",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Club de Ciencias",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Miércoles",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Educación Física",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "08:30",
+    "HoraFin": "09:50",
+    "Materia": "Matemática",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "09:50",
+    "HoraFin": "10:30",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "10:40",
+    "HoraFin": "11:20",
+    "Materia": "Lengua y Literatura",
+    "Profesor": "Rogna",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "11:20",
+    "HoraFin": "12:40",
+    "Materia": "Ciencias Sociales - Geografía",
+    "Profesor": "Alejandro Tello",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Jueves",
+    "HoraInicio": "13:00",
+    "HoraFin": "14:20",
+    "Materia": "Educación Tecnológica",
+    "Profesor": "Celeste Bertaina",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "SUM / Patio",
+    "Dia": "Jueves",
+    "HoraInicio": "14:30",
+    "HoraFin": "15:50",
+    "Materia": "Club de Deportes",
+    "Profesor": "Antonelli",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "08:30",
+    "HoraFin": "10:30",
+    "Materia": "Ciencias Naturales - Biología",
+    "Profesor": "Julieta Sánchez",
+    "Curso": "1.º"
+  },
+  {
+    "Aula": "Aula 1",
+    "Dia": "Viernes",
+    "HoraInicio": "10:40",
+    "HoraFin": "12:40",
+    "Materia": "Ciudadanía y Participación",
+    "Profesor": "Rodríguez (Caliva)",
+    "Curso": "1.º"
+  }
+]
