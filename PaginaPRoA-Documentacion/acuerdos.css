@@ -1,0 +1,149 @@
+/* ACUERDOS ESCOLARES DE CONVIVENCIA */
+:root {
+    --azul: #245e74;
+    --azul-oscuro: #173f52;
+    --celeste: #69a9ba;
+    --texto: #203344;
+    --muted: #596f7d;
+    --fondo: #edf3f6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { scroll-behavior: smooth; }
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    line-height: 1.65;
+}
+.contenido {
+    width:  min(90%, 1000px);
+    margin: 34px auto 45px;
+    animation: aparecer .65s ease;
+}
+.volver {
+    display: inline-block;
+    color: var(--azul);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    transition: .2s;
+}
+.volver:hover { transform: translateX(-4px); color: var(--azul-oscuro); }
+.encabezado {
+    background: linear-gradient(115deg, #245e74 0%, #397f96 48%, #69a9ba 100%);
+    color: #fff;
+    padding: 42px 28px;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 26px;
+    box-shadow: 0 10px 28px rgba(28,68,87,.14);
+}
+.encabezado h1 {
+    font-size: clamp(1.7rem, 4vw, 2.35rem);
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.encabezado p { color: #eff9fc; font-size: .98rem; }
+.anio {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 7px 15px;
+    background: rgba(255,255,255,.16);
+    border: 1px solid rgba(255,255,255,.35);
+    color: #fff;
+    border-radius: 20px;
+    font-size: .78rem;
+    font-weight: 600;
+}
+.introduccion, .seccion {
+    background: #fff;
+    padding: clamp(22px, 4vw, 32px);
+    border: 1px solid #dbe5ea;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(28,68,87,.06);
+}
+.introduccion h2, .seccion > h2 {
+    color: var(--azul);
+    font-size: 1.35rem;
+    margin-bottom: 16px;
+}
+.introduccion p, .texto-general {
+    color: var(--muted);
+    font-size: .92rem;
+    line-height: 1.8;
+}
+.introduccion p + p, .texto-general p + p { margin-top: 13px; }
+.seccion > h2 {
+    padding-bottom: 13px;
+    border-bottom: 2px solid #e4eff2;
+}
+.descripcion {
+    color: var(--muted);
+    font-size: .9rem;
+    margin: -3px 0 18px;
+}
+.acuerdo {
+    background: #f5f9fa;
+    border-left: 4px solid var(--celeste);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    transition: .2s;
+}
+.acuerdo:last-child { margin-bottom: 0; }
+.acuerdo:hover {
+    transform: translateX(3px);
+    box-shadow: 0 5px 15px rgba(36,94,116,.08);
+}
+.acuerdo h3 {
+    color: var(--azul-oscuro);
+    font-size: 1.02rem;
+    margin-bottom: 10px;
+}
+.acuerdo p {
+    color: var(--muted);
+    font-size: .88rem;
+    line-height: 1.75;
+}
+.acuerdo p + p { margin-top: 12px; }
+.acuerdo .prohibicion {
+    background: #fff3f1;
+    color: #874b49;
+    padding: 13px 15px;
+    border-radius: 8px;
+}
+.falta-leve { border-left-color: #d8ae4e; }
+.falta-leve h3 { color: #98721b; }
+.falta-moderada { border-left-color: #df914e; }
+.falta-moderada h3 { color: #b96b2d; }
+.falta-grave { border-left-color: #cf6262; }
+.falta-grave h3 { color: #b54343; }
+footer {
+    text-align: center;
+    color: #71838d;
+    font-size: .78rem;
+    line-height: 1.8;
+    padding: 18px 10px 0;
+}
+@keyframes aparecer {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 700px) {
+    .contenido { width: 93%; margin: 20px auto 32px; }
+    .encabezado { padding: 32px 19px; border-radius: 14px; }
+    .introduccion, .seccion { padding: 21px 18px; }
+    .introduccion h2, .seccion > h2 { font-size: 1.18rem; }
+    .acuerdo { padding: 16px; }
+    .acuerdo h3 { font-size: .95rem; }
+    .acuerdo p, .introduccion p, .texto-general { font-size: .84rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

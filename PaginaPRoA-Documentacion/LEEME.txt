@@ -1,0 +1,27 @@
+PORTAL DE DOCUMENTACIÓN INSTITUCIONAL PRoA - ALTA GRACIA
+
+INICIO
+- Abrir principal.html en un navegador o usar Live Server desde Visual Studio Code.
+- index.html redirige a principal.html.
+
+ESTRUCTURA
+- principal.html: página de inicio y tarjetas de navegación.
+- estilos.css: estilos compartidos, encabezado, formularios, paneles y diseño adaptable.
+- principal.css: ajuste de la página de inicio.
+- acuerdos-convivencia.html y acuerdos.css: página completa de Acuerdos Escolares de Convivencia.
+- ficha-medica.html / acuerdos-convivencia.html: páginas con recursos descargables.
+- justificacion-inasistencias.html: formulario local para cargar y previsualizar una foto.
+- iniciar-sesion.html: maqueta visual de acceso, sin autenticación real.
+- recursos/: modelos gráficos SVG descargables.
+- logoproa.png e icon_*.png: recursos gráficos originales del ZIP.
+- El certificado analítico fue retirado del menú y del proyecto.
+
+IMPORTANTE
+1. Las imágenes cargadas se procesan en el navegador y NO se envían a la escuela.
+2. El inicio de sesión no valida usuarios ni contraseñas.
+3. Los formularios no tienen backend ni base de datos. Para recibir trámites realmente se necesita desarrollar y conectar un servidor, definir quién accede a los datos y proteger la información personal.
+4. ficha-medica-modelo.svg y acuerdos-convivencia-resumen.svg son modelos orientativos, no documentos oficiales. Reemplazarlos por los documentos aprobados por la institución antes de publicar el sitio.
+5. La imagen hero usa "imagen  (2).png", que ya estaba dentro del ZIP y muestra un diseño de referencia. Puede reemplazarse por una fotografía institucional autorizada.
+
+TIPOGRAFÍA
+- Inter para todas las páginas. Requiere conexión a Internet para cargar Google Fonts; si no hay conexión, usa Arial como alternativa.

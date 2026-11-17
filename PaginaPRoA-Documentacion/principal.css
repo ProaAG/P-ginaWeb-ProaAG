@@ -1,0 +1,7 @@
+@import url('estilos.css');
+.pagina-inicio{background:linear-gradient(
+        90deg,
+        rgba(170, 235, 240, 1) 0%,
+        rgba(87, 217, 207, 1) 68%,
+        rgba(16, 149, 194, 1) 100%)
+}

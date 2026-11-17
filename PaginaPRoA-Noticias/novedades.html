@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias ProA</title>
+  <link rel="stylesheet" href="novedades.css">
+  <script src="novedades.js" defer></script>
+  <a href="https://drive.google.com/drive/folders/1xWP2ln-HtnbxG0_EFTgJrkZBhOEXmOij?usp=drive_link" target="_blank">
+    Ver carpeta
+</a>
+</head>
+<body>
+  <button class="boton-menu" id="abrirMenu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menuLateral">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="fondo-menu" id="fondoMenu" hidden></div>
+  <aside class="menu-lateral" id="menuLateral" aria-label="Menú principal" aria-hidden="true" inert>
+    <div class="menu-cabecera">
+      <span>Navegación</span>
+      <button class="cerrar-menu" id="cerrarMenu" type="button" aria-label="Cerrar menú">×</button>
+    </div>
+    <nav class="lista-menu">
+      <a class="enlace-menu-principal" href="../PaginaPRoA-PaginaPrincipal/Index.html">Principal</a>
+      <details class="grupo-menu">
+        <summary>Nosotros</summary>
+        <div class="subopciones-menu">
+          <a href="../PaginaPRoA-Nosotros/nosotros.html">Orientación <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Nosotros/docentes.html">Docentes <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Nosotros/nosotros.html">Acuerdos de convivencia <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Nosotros/nosotros.html">Fotos y videos <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Nosotros/nosotros.html">Modalidad de la escuela <small>En preparación</small></a>
+        </div>
+      </details>
+      <details class="grupo-menu" open>
+        <summary>Noticias</summary>
+        <div class="subopciones-menu">
+          <a href="#competencias">Olimpíadas / ONIET</a>
+          <a href="#cde">Centro de estudiantes</a>
+          <a href="#actos">Actos</a>
+          <a href="#actividades">Actividades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#rifas">Rifas</a>
+        </div>
+      </details>
+      <details class="grupo-menu">
+        <summary>Académica</summary>
+        <div class="subopciones-menu">
+          <a href="../PaginaPRoA-Academica/prueba.html">Horarios <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Academica/prueba.html">Inscripciones <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Academica/prueba.html">Cursos y aulas <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Academica/prueba.html">Notas y asistencias <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Academica/prueba.html">Mesas de examen <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Academica/prueba.html">Objetivos <small>En preparación</small></a>
+        </div>
+      </details>
+      <details class="grupo-menu">
+        <summary>Contacto</summary>
+        <div class="subopciones-menu">
+          <a href="../PaginaPRoA-Contacto/index.html">Ubicación <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Contacto/index.html">Redes sociales <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Contacto/index.html">Gmail <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Contacto/index.html">Teléfono <small>En preparación</small></a>
+        </div>
+      </details>
+      <details class="grupo-menu">
+        <summary>Documentación</summary>
+        <div class="subopciones-menu">
+          <a href="../PaginaPRoA-Documentacion/index.html">Qué documentación subir <small>En preparación</small></a>
+          <a href="../PaginaPRoA-Documentacion/index.html">Subir documentación <small>En preparación</small></a>
+        </div>
+      </details>
+      <a class="enlace-menu-cuenta" href="login.html">Usuario y contraseña <span>↗</span></a>
+    </nav>
+  </aside>
+  <main>
+    <section class="encabezado-novedades" id="inicio">
+      <nav class="acceso-cuenta" aria-label="Cuenta de usuario">
+        <a href="login.html" id="enlaceCuenta">
+          <span class="avatar-cuenta" id="avatarCuenta" aria-hidden="true">↗</span>
+          <span id="textoCuenta">Ingresar</span>
+        </a>
+      </nav>
+      <h1>Noticias ProA</h1>
+      <p>
+        En esta sección se publicarán las noticias más relevantes de la
+        institución. El objetivo es mantener informada a toda la comunidad
+        educativa sobre actividades, logros, eventos y proyectos desarrollados
+        por estudiantes y docentes.
+      </p>
+    </section>
+
+    <form class="busqueda-secciones" id="busquedaSecciones" role="search">
+      <label for="consultaSeccion">¿A qué sección querés ir?</label>
+      <div class="busqueda-secciones-controles">
+        <input
+          type="search"
+          id="consultaSeccion"
+          list="opcionesSecciones"
+          placeholder="Ej.: ONIET, viajes, rifas..."
+          autocomplete="off"
+          required
+        >
+        <datalist id="opcionesSecciones">
+          <option value="Expo ProA"></option>
+          <option value="ONIET"></option>
+          <option value="Viajes"></option>
+          <option value="Visitas"></option>
+          <option value="Actividades"></option>
+          <option value="Actos"></option>
+          <option value="Proyectos"></option>
+          <option value="Centro de Estudiantes"></option>
+          <option value="Rifas"></option>
+        </datalist>
+        <button type="submit">Ir</button>
+      </div>
+      <p class="mensaje-busqueda" id="mensajeBusqueda" aria-live="polite"></p>
+    </form>
+
+    <!-- EXPO PROA -->
+    <section class="novedad novedad-expo" id="expo" data-search-terms="expo proa">
+      <div class="expo-galeria" data-carousel>
+        <div class="carrusel">
+          <button class="boton-carrusel anterior" type="button"
+            data-carousel-prev aria-label="Foto anterior">‹</button>
+
+          <div class="ventana-carrusel">
+            <div class="contenedor-fotos" data-carousel-track>
+              <div class="foto-principal">
+                <img src="expo (1).png" alt="Expo ProA, fotografía 1">
+              </div>
+              <div class="foto-principal">
+                <img src="expo (2).png" alt="Expo ProA, fotografía 2">
+              </div>
+              <div class="foto-principal">
+                <img src="expo (3).png" alt="Expo ProA, fotografía 3">
+              </div>
+            </div>
+          </div>
+
+          <button class="boton-carrusel siguiente" type="button"
+            data-carousel-next aria-label="Foto siguiente">›</button>
+        </div>
+      </div>
+
+      <article class="descripcion-novedad">
+        <h2>Expo ProA</h2>
+        <p>
+          La Expo ProA es uno de los eventos más importantes de la institución,
+          donde los estudiantes presentan los proyectos desarrollados durante
+          el año. En esta sección se compartirán las novedades, el cronograma,
+          fotografías, videos y los resultados de la exposición.
+        </p>
+      </article>
+    </section>
+
+    <!-- COMPETENCIAS -->
+    <section class="novedad novedad-competencias" id="competencias" data-search-terms="oniet competencias copa robotica emprende u">
+      <div class="competencia-galeria galeria-oniet">
+        <label class="filtro-oniet" for="filtroAnioOniet">
+          Fotos de ONIET
+          <select id="filtroAnioOniet" aria-label="Elegir año de ONIET">
+            <option value="2026">ONIET 2026</option>
+            <option value="2025">ONIET 2025</option>
+          </select>
+        </label>
+
+        <div class="galeria-oniet-anio" data-oniet-gallery="2026">
+          <div data-carousel>
+            <div class="carrusel-competencias">
+              <button class="boton-competencia" type="button" data-carousel-prev aria-label="Foto anterior">‹</button>
+              <div class="ventana-competencias">
+                <div class="contenedor-competencias" data-carousel-track>
+                  <div class="foto-competencia"><img src="oniet26.jpg" alt="ONIET 2026, fotografía 1"></div>
+                  <div class="foto-competencia"><img src="oniet26 (2).jpg" alt="ONIET 2026, fotografía 2"></div>
+                  <div class="foto-competencia"><img src="oniet26 (3).jpg" alt="ONIET 2026, fotografía 3"></div>
+                  <div class="foto-competencia"><img src="oniet26 (4).jpg" alt="ONIET 2026, fotografía 4"></div>
+                  <div class="foto-competencia"><img src="oniet26 (5).jpg" alt="ONIET 2026, fotografía 5"></div>
+                  <div class="foto-competencia"><img src="oniet26 (6).jpg" alt="ONIET 2026, fotografía 6"></div>
+                  <div class="foto-competencia"><img src="oniet26 (7).jpg" alt="ONIET 2026, fotografía 7"></div>
+                  <div class="foto-competencia"><img src="oniet26 (8).jpg" alt="ONIET 2026, fotografía 8"></div>
+                </div>
+              </div>
+              <button class="boton-competencia" type="button" data-carousel-next aria-label="Foto siguiente">›</button>
+            </div>
+            <div class="indicadores-competencia" data-carousel-indicators></div>
+          </div>
+        </div>
+
+        <div class="galeria-oniet-anio" data-oniet-gallery="2025" hidden>
+          <div data-carousel>
+            <div class="carrusel-competencias">
+              <button class="boton-competencia" type="button" data-carousel-prev aria-label="Foto anterior">‹</button>
+              <div class="ventana-competencias">
+                <div class="contenedor-competencias" data-carousel-track>
+                  <div class="foto-competencia"><img src="oniet25.png" alt="ONIET 2025, fotografía 1"></div>
+                  <div class="foto-competencia"><img src="oniet25.1.png" alt="ONIET 2025, fotografía 2"></div>
+                  <div class="foto-competencia"><img src="oniet25.3.png" alt="ONIET 2025, fotografía 3"></div>
+                  <div class="foto-competencia"><img src="oniet25.4.png" alt="ONIET 2025, fotografía 4"></div>
+                  <div class="foto-competencia"><img src="oniet25.5.png" alt="ONIET 2025, fotografía 5"></div>
+                  <div class="foto-competencia"><img src="oniet25.6.png" alt="ONIET 2025, fotografía 6"></div>
+                  <div class="foto-competencia"><img src="oniet25.7.png" alt="ONIET 2025, fotografía 7"></div>
+                </div>
+              </div>
+              <button class="boton-competencia" type="button" data-carousel-next aria-label="Foto siguiente">›</button>
+            </div>
+            <div class="indicadores-competencia" data-carousel-indicators></div>
+          </div>
+        </div>
+      </div>
+
+      <article class="descripcion-novedad">
+        <h2>Competencias</h2>
+        <p>
+          Esta sección reunirá las noticias relacionadas con la participación
+          de los estudiantes en competencias como ONIET, Copa Robótica,
+          Emprende U u otras. Se destacarán los logros obtenidos, proyectos
+          presentados y la participación de nuevos estudiantes.
+        </p>
+      </article>
+
+      <div class="competencias-secundarias">
+        <div class="tarjeta-foto">
+          <img src="Oniet proa.jpg" alt="Actividad de Emprende U">
+        </div>
+        <div class="tarjeta-foto">
+          <img src="o1.jpg" alt="Actividad de ONIET">
+        </div>
+      </div>
+    </section>
+
+    <!-- VIAJES -->
+    <section class="novedad novedad-competencias" id="viajes" data-search-terms="viaje viajes">
+      <div class="competencia-galeria" data-carousel>
+        <div class="titulo-foto">Fotos de los viajes</div>
+
+        <div class="carrusel-competencias">
+          <button class="boton-competencia" type="button"
+            data-carousel-prev aria-label="Foto anterior">‹</button>
+
+          <div class="ventana-competencias">
+            <div class="contenedor-competencias" data-carousel-track>
+              <div class="foto-competencia">
+                <img src="Viaje.jpg" alt="Viaje escolar, fotografía 1">
+              </div>
+              <div class="foto-competencia">
+                <img src="viaje2.jpg" alt="Viaje escolar, fotografía 2">
+              </div>
+              <div class="foto-competencia">
+                <img src="viaje3.jpg" alt="Viaje escolar, fotografía 3">
+              </div>
+              <div class="foto-competencia">
+                <img src="viaje3.png" alt="Viaje escolar, fotografía 4">
+              </div>
+              <div class="foto-competencia">
+                <img src="fotocarrusel5.jpg" alt="Viaje escolar, fotografía 5">
+              </div>
+            </div>
+          </div>
+
+          <button class="boton-competencia" type="button"
+            data-carousel-next aria-label="Foto siguiente">›</button>
+        </div>
+
+        <div class="indicadores-competencia" data-carousel-indicators></div>
+      </div>
+
+      <article class="descripcion-novedad">
+        <h2>Viajes</h2>
+        <p>
+          Esta sección reunirá las noticias relacionadas con los viajes
+          realizados por los estudiantes junto a la escuela. Se compartirán
+          las experiencias vividas en cada destino, las actividades
+          desarrolladas y los aprendizajes obtenidos.
+        </p>
+      </article>
+
+      <div class="competencias-secundarias">
+        <div class="tarjeta-foto"><img src="fotoagregar2.jpg" alt=""></div>
+        <div class="tarjeta-foto"><img src="viajeult.jpg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- VISITAS -->
+    <section class="novedad novedad-competencias" id="visitas" data-search-terms="visita visitas">
+      <div class="competencia-galeria" data-carousel>
+        <div class="titulo-foto">Fotos de las visitas</div>
+
+        <div class="carrusel-competencias">
+          <button class="boton-competencia" type="button"
+            data-carousel-prev aria-label="Foto anterior">‹</button>
+
+          <div class="ventana-competencias">
+            <div class="contenedor-competencias" data-carousel-track>
+              <div class="foto-competencia">
+                <img src="visitas.jpg" alt="Visita escolar, fotografía 1">
+              </div>
+              <div class="foto-competencia">
+                <img src="visitas3.jpg" alt="Visita escolar, fotografía 2">
+              </div>
+              <div class="foto-competencia">
+                <img src="visitas4.jpg" alt="Visita escolar, fotografía 3">
+              </div>
+              <div class="foto-competencia">
+                <img src="visitas5.jpg" alt="Visita escolar, fotografía 4">
+              </div>
+            </div>
+          </div>
+
+          <button class="boton-competencia" type="button"
+            data-carousel-next aria-label="Foto siguiente">›</button>
+        </div>
+
+        <div class="indicadores-competencia" data-carousel-indicators></div>
+      </div>
+
+      <article class="descripcion-novedad">
+        <h2>Visitas</h2>
+        <p>
+          Espacio dedicado a las visitas que recibe la institución y las
+          actividades realizadas junto a los invitados.
+        </p>
+      </article>
+
+      <div class="competencias-secundarias">
+        <div class="tarjeta-foto"><img src="visitas7.jpg" alt="Visita escolar, fotografía 4"></div>
+        <div class="tarjeta-foto"><img src="italia.jpg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- ACTIVIDADES -->
+    <section class="novedad novedad-visitas" id="actividades" data-search-terms="actividad actividades dia del estudiante jornadas integracion">
+      <div class="competencia-galeria">
+        <div class="titulo-foto">Fotos de las actividades</div>
+
+        <div class="competencias-secundarias-vertical">
+          <div class="tarjeta-foto"> 
+            <img src="actividad4.jpg" alt="Torneo escolar, fotografía 1"> </div>
+          <div class="tarjeta-foto"> <img src="actividad10.jpg" alt="Torneo escolar, fotografía 1">  </div>
+        </div>
+      </div>
+
+      <div class="columna-derecha">
+        <div class="galeria-superior-carrusel" data-carousel>
+          <div class="titulo-foto">Galería de actividad</div>
+
+          <div class="carrusel-competencias">
+            <button class="boton-competencia" type="button"
+              data-carousel-prev aria-label="Foto anterior">‹</button>
+
+            <div class="ventana-competencias">
+              <div class="contenedor-competencias" data-carousel-track>
+                <div class="foto-competencia">
+                  <img src="actividad.jpg" alt="Torneo escolar, fotografía 1">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividad2.jpg" alt="Torneo escolar, fotografía 2">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividad3.jpg" alt="Torneo escolar, fotografía 3">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividad5.jpg" alt="Torneo escolar, fotografía 4">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividad7.jpg" alt="Torneo escolar, fotografía 4">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividad8.jpg" alt="Torneo escolar, fotografía 4">
+                </div>
+                
+                <div class="foto-competencia">
+                  <img src="actividad9.jpg" alt="Torneo escolar, fotografía 4">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actividades.jpg" alt="Torneo escolar, fotografía 4">
+                </div>
+              </div>
+            </div>
+
+            <button class="boton-competencia" type="button"
+              data-carousel-next aria-label="Foto siguiente">›</button>
+          </div>
+
+          <div class="indicadores-competencia" data-carousel-indicators></div>
+        </div>
+
+        <article class="descripcion-novedad">
+          <h2>Actividades</h2>
+          <p>Enterate acá de todas las actividades recreativas de la institución: 
+            el Día del Estudiante, las jornadas de integración, las juntadas y cada evento 
+            pensado para compartir y disfrutar con la comunidad escolar.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ACTOS -->
+    <section class="novedad novedad-actos" id="actos" data-search-terms="acto actos celebraciones">
+      <article class="descripcion-novedad">
+        <h2>Actos</h2>
+        <p>
+          En esta sección se publicarán las noticias relacionadas con los
+          actos escolares, conmemoraciones y celebraciones institucionales.
+          Se destacará la participación de los estudiantes, los reconocimientos
+          realizados y los momentos más importantes de cada evento.
+        </p>
+      </article>
+
+      <div class="galeria-actos">
+        <div class="tarjeta-foto foto-lateral">
+          <img src="actolol.jpg" alt="">
+        </div>
+
+        <div class="carrusel-actos" data-carousel>
+          <div class="carrusel-competencias">
+            <button class="boton-competencia" type="button"
+              data-carousel-prev aria-label="Foto anterior">‹</button>
+
+            <div class="ventana-competencias">
+              <div class="contenedor-competencias" data-carousel-track>
+                <div class="foto-competencia">
+                  <img src="Actos.jpg" alt="Acto escolar, fotografía 1">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actos3.jpg" alt="Acto escolar, fotografía 2">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actos4.jpg" alt="Acto escolar, fotografía 3">
+                </div>
+                <div class="foto-competencia">
+                  <img src="actos5.jpg" alt="Acto escolar, fotografía 4">
+                </div>
+              </div>
+            </div>
+
+            <button class="boton-competencia" type="button"
+              data-carousel-next aria-label="Foto siguiente">›</button>
+          </div>
+
+          <div class="indicadores-competencia" data-carousel-indicators></div>
+        </div>
+
+        <div class="tarjeta-foto">
+          <img src="Actos2.jpg" alt="Actividad de Emprende U">
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="novedad novedad-proyectos" id="proyectos" data-search-terms="proyecto proyectos">
+      <div class="tarjeta-foto foto-vertical">
+        <img src="guante.jpg" alt="">
+      </div>
+
+      <div class="columna-derecha">
+        <article class="descripcion-novedad">
+          <h2>Proyectos</h2>
+          <p>
+            Espacio destinado a presentar los proyectos desarrollados por
+            estudiantes y docentes durante el año. Se mostrará su evolución,
+            los objetivos planteados, los resultados obtenidos y el impacto
+            generado dentro y fuera de la institución.
+          </p>
+        </article>
+
+        <div class="carrusel-proyectos" data-carousel>
+          <div class="carrusel-competencias">
+            <button class="boton-competencia" type="button"
+              data-carousel-prev aria-label="Foto anterior">‹</button>
+
+            <div class="ventana-competencias">
+              <div class="contenedor-competencias" data-carousel-track>
+                <div class="foto-competencia">
+                  <img src="proyecto.jpg" alt="Proyecto escolar, fotografía 1">
+                </div>
+                <div class="foto-competencia">
+                  <img src="proyecto2.jpg" alt="Proyecto escolar, fotografía 2">
+                </div>
+                <div class="foto-competencia">
+                  <img src="arteproy.jpg" alt="Proyecto escolar, fotografía 3">
+                </div>
+                <div class="foto-competencia">
+                  <img src="nubeproy.png" alt="Proyecto escolar, fotografía 4">
+                </div>
+              </div>
+            </div>
+
+            <button class="boton-competencia" type="button"
+              data-carousel-next aria-label="Foto siguiente">›</button>
+          </div>
+
+          <div class="indicadores-competencia" data-carousel-indicators></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CENTRO DE ESTUDIANTES -->
+    <section class="novedad-cde" id="cde" data-search-terms="cde centro estudiantes centro de estudiantes">
+      <div class="contenido-cde">
+        <div class="columna-cde-izquierda">
+          <div class="encabezado-cde">
+            <h2>Centro de Estudiantes (CDE)</h2>
+            <p>
+              Espacio destinado a difundir las actividades, propuestas y
+              proyectos impulsados por el Centro de Estudiantes. Su objetivo
+              es fortalecer la comunicación entre los representantes
+              estudiantiles y toda la comunidad educativa.
+            </p>
+          </div>
+
+          <div class="bloque-carrusel-cde" data-carousel>
+            <div class="carrusel-cde">
+              <button class="boton-cde" type="button"
+                data-carousel-prev aria-label="Foto anterior">‹</button>
+
+              <div class="ventana-cde">
+                <div class="contenedor-cde" data-carousel-track>
+                  <div class="foto-cde">
+                    <img src="cde1.png" alt="Centro de Estudiantes, fotografía 1">
+                  </div>
+                  <div class="foto-cde">
+                    <img src="cde2.png" alt="Centro de Estudiantes, fotografía 2">
+                  </div>
+                  <div class="foto-cde">
+                    <img src="cde3.png" alt="Centro de Estudiantes, fotografía 3">
+                  </div>
+                </div>
+              </div>
+
+              <button class="boton-cde" type="button"
+                data-carousel-next aria-label="Foto siguiente">›</button>
+            </div>
+
+            <div class="indicadores-competencia" data-carousel-indicators></div>
+          </div>
+        </div>
+
+        <div class="bloque-carrusel-cde bloque-carrusel-derecho" data-carousel>
+          <div class="carrusel-cde carrusel-cde-secundario">
+            <button class="boton-cde" type="button"
+              data-carousel-prev aria-label="Foto anterior">‹</button>
+
+            <div class="ventana-cde">
+              <div class="contenedor-cde" data-carousel-track>
+                  <div class="foto-cde">
+                    <img src="cde4.jpg" alt="Centro de Estudiantes, fotografía 4">
+                </div>
+                  <div class="foto-cde">
+                    <img src="cde5.jpg" alt="Centro de Estudiantes, fotografía 5">
+                </div>
+                  <div class="foto-cde">
+                    <img src="cde6.jpg" alt="Centro de Estudiantes, fotografía 6">
+                </div>
+              </div>
+            </div>
+
+            <button class="boton-cde" type="button"
+              data-carousel-next aria-label="Foto siguiente">›</button>
+          </div>
+
+          <div class="indicadores-competencia" data-carousel-indicators></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JORNADAS ESPECIALES Y RIFAS -->
+    <div class="contenedor-jornadas-rifas">
+      
+
+      <section class="novedad-rifas" id="rifas" data-search-terms="rifa rifas bingo">
+        <div class="rifas-contenido">
+          <header class="encabezado-rifas">
+            <h2 id="titulo-rifas">Rifas</h2>
+            <p>
+              Aquí se informarán las rifas organizadas por la institución o
+              el Centro de Estudiantes. Cada publicación incluirá las bases
+              de participación, las fechas importantes y los resultados,
+              garantizando transparencia en todo el proceso.
+            </p>
+          </header>
+          <div class="rifas-apoyo">
+            <img src="flyer-rifas-ayuda.svg" alt="Flyer: ¡Tu ayuda suma! Con tu colaboración, impulsamos nuevas ideas y actividades para nuestra comunidad.">
+          </div>
+        </div>
+
+        <article class="tarjeta-rifa-imagen">
+          <img src="bingo.jpg" alt="Imagen de la rifa organizada por la institución">
+        </article>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

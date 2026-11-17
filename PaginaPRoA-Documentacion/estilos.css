@@ -1,0 +1,1174 @@
+
+/* ========================================= */
+/* 1. IMPORTACIÓN DE FUENTES                 */
+/* ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+/* ========================================= */
+/* 2. VARIABLES GLOBALES                     */
+/* ========================================= */
+
+:root {
+    --azul: #245e74;
+    --azul-oscuro: #173f52;
+
+    --celeste: #69a9ba;
+    --celeste-claro: #e8f3f6;
+
+    --fondo: #edf3f6;
+    --texto: #203344;
+    --muted: #657786;
+
+    --blanco: #fff;
+    --borde: #dbe5ea;
+
+    --sombra: 0 12px 32px rgba(28,68,87,.09);
+    --radio: 18px;
+
+    /* Degradado del panel lateral */
+    --degradado-lateral: linear-gradient(
+        90deg,
+        rgba(170, 235, 240, 1) 0%,
+        rgba(87, 217, 207, 1) 68%,
+        rgba(16, 149, 194, 1) 100%
+    );
+}
+
+
+/* ========================================= */
+/* 3. CONFIGURACIÓN GENERAL                  */
+/* ========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: var(--texto);
+    background: var(--degradado-lateral);
+    line-height: 1.6;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+main {
+    width: calc(100% - 280px);
+    margin-left: 280px;
+    flex: 1;
+}
+
+
+/* ========================================= */
+/* 4. PANEL LATERAL IZQUIERDO                */
+/* ========================================= */
+
+.header-global {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 280px;
+    height: 100vh;
+    min-height: 100vh;
+
+    padding: 35px 22px;
+
+    background: var(--degradado-lateral);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 25px;
+
+    box-shadow: 4px 0 20px rgba(20,65,82,.12);
+
+    z-index: 10;
+}
+
+
+/* Logo institucional */
+
+.logo-principal {
+    width: 145px;
+    height: 115px;
+
+    object-fit: contain;
+
+    margin-top: 10px;
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar{
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+/* Contenido del panel */
+
+.header-contenido {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 28px;
+}
+
+
+/* Nombre de la institución */
+
+.header-global h1 {
+    color: #173f52;
+
+    font-size: 1.28rem;
+    font-weight: 800;
+
+    line-height: 1.4;
+    text-align: center;
+
+    letter-spacing: -.035em;
+
+    text-shadow: 0 1px 2px rgba(255,255,255,.25);
+}
+
+
+/* Navegación */
+
+.header-global nav {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.header-global nav a {
+    display: block;
+
+    width: 100%;
+
+    color: #173f52;
+    text-decoration: none;
+
+    padding: 13px 16px;
+
+    border-radius: 10px;
+
+    font-size: .92rem;
+    font-weight: 700;
+
+    background: rgba(255,255,255,.28);
+
+    transition: .2s;
+}
+
+.header-global nav a:hover,
+.header-global nav a.activo {
+    background: rgba(255,255,255,.72);
+
+    transform: translateX(4px);
+}
+
+
+/* Botón de inicio de sesión */
+
+.boton-header {
+    display: block;
+
+    width: 100%;
+
+    margin-top: auto;
+
+    background: #173f52;
+    color: #fff;
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    padding: 13px 15px;
+
+    font-weight: 700;
+    font-size: .9rem;
+
+    transition: .2s;
+}
+
+.boton-header:hover {
+    background: #102f40;
+    transform: translateY(-2px);
+}
+
+
+/* ========================================= */
+/* 5. FOOTER / PIE DE PÁGINA                 */
+/* ========================================= */
+
+.footer-global {
+    width: calc(100% - 280px);
+    margin-left: 280px;
+    margin-top: auto;
+
+    background: var(--azul-oscuro);
+    color: #eaf4f7;
+
+    text-align: center;
+
+    padding: 22px 15px;
+
+    font-size: .86rem;
+}
+
+.footer-global p + p {
+    opacity: .75;
+    font-size: .78rem;
+    margin-top: 3px;
+}
+
+
+/* ========================================= */
+/* 6. PÁGINA DE INICIO                       */
+/* ========================================= */
+
+.pagina-inicio {
+    background: #fff;
+    min-height: 100%;
+}
+
+
+/* ----------------------------------------- */
+/* 6.1. HERO / PRESENTACIÓN                  */
+/* ----------------------------------------- */
+
+.hero {
+    width: 100%;
+    min-height: 390px;
+
+    padding: 45px 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+
+    background: #f7fbfc;
+
+    overflow: hidden;
+}
+
+
+/* Imagen de presentación */
+
+.hero-imagen {
+    width: 55%;
+    height: 340px;
+
+    overflow: hidden;
+
+    border-radius: 0 170px 170px 0;
+
+    box-shadow: 0 10px 25px #245e742e;
+}
+
+.hero-imagen img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* Texto de presentación */
+
+.hero-texto {
+    width: 40%;
+    padding: 18px;
+}
+
+.hero-texto h2 {
+    color: var(--azul);
+
+    font-size: clamp(2.5rem, 5vw, 4.7rem);
+
+    font-weight: 800;
+    line-height: 1.02;
+
+    letter-spacing: -.055em;
+
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    color: var(--muted);
+
+    font-size: 1.02rem;
+    max-width: 480px;
+}
+
+
+/* ----------------------------------------- */
+/* 6.2. CARACTERÍSTICAS DEL PORTAL           */
+/* ----------------------------------------- */
+
+.features {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 36px auto;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 70px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    max-width: 360px;
+}
+
+
+/* Iconos */
+
+.feature-icon {
+    width: 54px;
+    height: 54px;
+
+    flex: none;
+
+    border-radius: 50%;
+
+    display: grid;
+    place-items: center;
+
+    background: var(--celeste-claro);
+    color: var(--azul);
+
+    font-size: 1.55rem;
+    font-weight: 800;
+}
+
+
+/* Textos */
+
+.feature strong {
+    color: var(--azul);
+    font-size: .95rem;
+}
+
+.feature p {
+    color: var(--muted);
+    font-size: .82rem;
+    margin-top: 3px;
+}
+
+
+/* ----------------------------------------- */
+/* 6.3. DOCUMENTACIÓN INSTITUCIONAL          */
+/* ----------------------------------------- */
+
+.documentos {
+    width: 90%;
+    max-width: 1320px;
+
+    margin: 65px auto;
+
+    padding-bottom: 55px;
+}
+
+.documentos > h2 {
+    text-align: center;
+
+    color: var(--azul);
+
+    font-size: 2rem;
+    font-weight: 800;
+
+    letter-spacing: -.04em;
+}
+
+
+/* Línea decorativa */
+
+.linea {
+    width: 76px;
+    height: 4px;
+
+    background: var(--celeste);
+
+    margin: 13px auto 38px;
+
+    border-radius: 10px;
+}
+
+
+/* Cuadrícula de documentos */
+
+.documents {
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 24px;
+}
+
+
+/* Tarjetas */
+
+.card {
+    background: #fff;
+
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+
+    padding: 23px 20px;
+
+    min-height: 235px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    box-shadow: 0 5px 18px #1e4d6110;
+
+    transition: .22s;
+}
+
+
+/* Efecto al pasar el cursor */
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--sombra);
+
+    border-color: #b8d4de;
+}
+
+
+/* Imagen de las tarjetas */
+
+.card img {
+    width: 54px;
+    height: 54px;
+
+    object-fit: contain;
+
+    margin-bottom: 14px;
+}
+
+
+/* Títulos */
+
+.card h3 {
+    font-size: 1rem;
+
+    color: var(--azul);
+    font-weight: 750;
+
+    margin-bottom: 7px;
+}
+
+
+/* Descripciones */
+
+.card p {
+    font-size: .84rem;
+
+    color: var(--muted);
+
+    line-height: 1.55;
+
+    flex: 1;
+}
+
+
+/* Enlaces */
+
+.card a {
+    margin-top: 16px;
+
+    color: var(--azul);
+
+    font-size: .86rem;
+    font-weight: 750;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #a9cbd6;
+
+    padding-bottom: 3px;
+}
+
+.card a:hover {
+    color: #102f40;
+}
+
+
+/* ========================================= */
+/* 7. PÁGINAS INTERNAS                       */
+/* ========================================= */
+
+.contenedor-pagina {
+    width: min(100% - 36px, 980px);
+    margin: 42px auto 58px;
+}
+
+
+/* ----------------------------------------- */
+/* 7.1. ENCABEZADO DE PÁGINAS                */
+/* ----------------------------------------- */
+
+.encabezado-pagina {
+    text-align: center;
+    margin: 0 auto 26px;
+    max-width: 760px;
+}
+
+.eyebrow {
+    display: inline-block;
+
+    color: var(--azul);
+    background: #dcecf1;
+
+    border-radius: 999px;
+
+    padding: 6px 12px;
+
+    font-size: .72rem;
+    font-weight: 800;
+
+    letter-spacing: .09em;
+    text-transform: uppercase;
+
+    margin-bottom: 12px;
+}
+
+.encabezado-pagina h2 {
+    font-size: clamp(1.8rem, 4vw, 2.55rem);
+
+    line-height: 1.15;
+
+    color: var(--azul-oscuro);
+
+    letter-spacing: -.045em;
+
+    margin-bottom: 10px;
+}
+
+.encabezado-pagina p {
+    color: var(--muted);
+    font-size: .96rem;
+}
+
+
+/* ----------------------------------------- */
+/* 7.2. PANELES DE CONTENIDO                 */
+/* ----------------------------------------- */
+
+.panel {
+    background: #fff;
+
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+
+    padding: clamp(22px, 4vw, 36px);
+
+    box-shadow: var(--sombra);
+
+    margin-bottom: 22px;
+}
+
+.panel h3 {
+    color: var(--azul-oscuro);
+    font-size: 1.12rem;
+    margin-bottom: 7px;
+}
+
+.panel > p,
+.panel li {
+    color: var(--muted);
+}
+
+
+/* Listas */
+
+.panel ul,
+.panel ol {
+    padding-left: 22px;
+    margin: 12px 0;
+}
+
+.panel li {
+    margin: 7px 0;
+}
+
+
+/* ----------------------------------------- */
+/* 7.3. BOTONES Y ACCIONES                   */
+/* ----------------------------------------- */
+
+.acciones {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 22px;
+}
+
+.btn {
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 11px 18px;
+
+    border-radius: 9px;
+
+    border: 1px solid transparent;
+
+    text-decoration: none;
+
+    font-size: .9rem;
+    font-weight: 750;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.btn-principal {
+    background: var(--azul);
+    color: #fff;
+}
+
+.btn-principal:hover {
+    background: var(--azul-oscuro);
+}
+
+.btn-secundario {
+    background: #edf5f7;
+    color: var(--azul);
+    border-color: #c9dfe6;
+}
+
+.btn-secundario:hover {
+    background: #deedf1;
+}
+
+.btn:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+}
+
+
+/* ----------------------------------------- */
+/* 7.4. AVISOS INFORMATIVOS                  */
+/* ----------------------------------------- */
+
+.aviso {
+    padding: 15px 17px;
+
+    background: #f0f7f9;
+
+    border-left: 4px solid var(--celeste);
+
+    border-radius: 8px;
+
+    color: #526775;
+
+    font-size: .88rem;
+
+    margin-top: 18px;
+}
+
+
+/* ========================================= */
+/* 8. FORMULARIOS                            */
+/* ========================================= */
+
+.grid-form {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 17px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.campo-completo {
+    grid-column: 1 / -1;
+}
+
+.campo label {
+    font-size: .86rem;
+    font-weight: 700;
+    color: #30495a;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+
+    padding: 12px 13px;
+
+    border: 1px solid #cbd8df;
+    border-radius: 9px;
+
+    background: #fff;
+    color: var(--texto);
+
+    outline: none;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: var(--celeste);
+    box-shadow: 0 0 0 3px #69a9ba25;
+}
+
+.campo small {
+    font-size: .76rem;
+    color: var(--muted);
+}
+
+fieldset {
+    border: 0;
+    border-top: 1px solid var(--borde);
+
+    padding-top: 20px;
+    margin-top: 22px;
+}
+
+legend {
+    padding-right: 10px;
+    color: var(--azul);
+    font-weight: 800;
+}
+
+.estado-form {
+    font-size: .86rem;
+    color: var(--azul);
+    margin-top: 12px;
+    min-height: 22px;
+}
+
+
+/* ========================================= */
+/* 9. CARGA DE ARCHIVOS E IMÁGENES           */
+/* ========================================= */
+
+.zona-carga {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    gap: 7px;
+
+    padding: 28px 18px;
+
+    border: 2px dashed #9bbfcb;
+
+    background: #f5fafb;
+
+    border-radius: 13px;
+
+    cursor: pointer;
+
+    color: var(--azul);
+}
+
+.zona-carga:hover {
+    background: #edf6f8;
+    border-color: var(--azul);
+}
+
+.zona-carga .subida-icono {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.zona-carga strong {
+    font-size: 1rem;
+}
+
+.zona-carga span,
+.zona-carga small {
+    color: var(--muted);
+    font-size: .82rem;
+}
+
+input[type=file] {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    opacity: 0;
+    overflow: hidden;
+}
+
+.nombre-archivo {
+    font-size: .82rem;
+    color: var(--muted);
+
+    margin: 10px 0 16px;
+
+    overflow-wrap: anywhere;
+}
+
+
+/* VISTA PREVIA */
+
+.vista-previa {
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    background: #f8fafb;
+}
+
+.vista-previa-cabecera {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 12px 15px;
+
+    background: #edf4f6;
+
+    color: var(--azul);
+
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+.marco {
+    min-height: 210px;
+
+    padding: 18px;
+
+    display: grid;
+    place-items: center;
+
+    color: var(--muted);
+
+    text-align: center;
+}
+
+.marco img {
+    max-width: 100%;
+    max-height: 520px;
+
+    object-fit: contain;
+
+    border-radius: 5px;
+}
+
+.marco img[hidden] {
+    display: none;
+}
+
+
+/* ========================================= */
+/* 10. INICIO DE SESIÓN                      */
+/* ========================================= */
+
+.login-panel {
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+.login-marca {
+    background: linear-gradient(
+        135deg,
+        #245e74,
+        #173f52
+    );
+
+    color: #fff;
+
+    border-radius: 14px;
+
+    padding: 24px;
+
+    text-align: center;
+
+    margin-bottom: 22px;
+}
+
+.login-marca img {
+    width: 86px;
+    height: 72px;
+
+    object-fit: contain;
+
+    margin-bottom: 8px;
+}
+
+.login-marca h3 {
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+.login-panel .campo {
+    margin-bottom: 16px;
+}
+
+
+/* ========================================= */
+/* 11. DISEÑO RESPONSIVE                     */
+/* ========================================= */
+
+/* TABLETS */
+
+@media (max-width: 1000px) {
+
+    .header-global {
+        width: 240px;
+        padding: 28px 17px;
+    }
+
+    main,
+    .footer-global {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+    .documents {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero {
+        gap: 25px;
+    }
+
+    .hero-imagen {
+        height: 290px;
+    }
+
+    .hero-texto h2 {
+        font-size: clamp(2.3rem, 4vw, 3.5rem);
+    }
+
+    .features {
+        gap: 25px;
+    }
+
+}
+
+
+/* CELULARES Y PANTALLAS PEQUEÑAS */
+
+@media (max-width: 680px) {
+
+    /* PANEL LATERAL: PASA A LA PARTE SUPERIOR */
+
+    .header-global {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+        min-height: 0;
+
+        padding: 22px 16px;
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo-principal {
+        width: 90px;
+        height: 70px;
+
+        margin-top: 0;
+    }
+
+    .header-contenido {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .header-global h1 {
+        font-size: 1.15rem;
+    }
+
+    .header-global nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .header-global nav a {
+        width: auto;
+        font-size: .78rem;
+        padding: 9px 12px;
+    }
+
+    .boton-header {
+        width: auto;
+        margin-top: 0;
+        padding: 10px 20px;
+    }
+
+
+    /* CONTENIDO PRINCIPAL */
+
+    main,
+    .footer-global {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 20px;
+    }
+
+    .hero-imagen {
+        width: 100%;
+        height: 230px;
+        border-radius: 0 100px 100px 0;
+    }
+
+    .hero-texto {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero-texto h2 {
+        font-size: 2.65rem;
+    }
+
+
+    /* CARACTERÍSTICAS */
+
+    .features {
+        flex-direction: column;
+        gap: 20px;
+        width: 85%;
+    }
+
+
+    /* DOCUMENTOS */
+
+    .documents {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .card {
+        padding: 17px 14px;
+        min-height: 230px;
+    }
+
+    .card img {
+        width: 46px;
+        height: 46px;
+    }
+
+
+    /* PÁGINAS INTERNAS */
+
+    .contenedor-pagina {
+        width: min(100% - 24px, 980px);
+        margin: 28px auto 40px;
+    }
+
+
+    /* FORMULARIOS */
+
+    .grid-form {
+        grid-template-columns: 1fr;
+    }
+
+    .campo-completo {
+        grid-column: auto;
+    }
+
+    .acciones {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}
+
+
+/* CELULARES PEQUEÑOS */
+
+@media (max-width: 390px) {
+
+    .documents {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        min-height: 0;
+    }
+
+}

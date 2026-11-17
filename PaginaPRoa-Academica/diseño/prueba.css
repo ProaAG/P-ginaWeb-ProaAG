@@ -23,7 +23,7 @@ body {
 .sidebar {
     width: 250px;
     min-height: 100vh;
-    background: #031b40;
+    background: #11aeda;
     color: white;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,16 @@ body {
 .logo {
     text-align: center;
     margin-bottom: 35px;
+    animation: girar 2s linear infinite;
+}
+
+@keyframes girar{
+    from {
+        transform: rotatey(0deg);
+    }
+    to {
+        transform: rotatey(360deg);
+    }
 }
 
 .logo img {
@@ -56,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #cbd5e1;
+    color: #ffffff;
     text-decoration: none;
     padding: 13px 15px;
     border-radius: 9px;
@@ -147,7 +157,7 @@ p {
 }
 
 .bienvenida {
-    background: #062352;
+    background: #11aeda;
     color: white;
     padding: 40px;
     border-radius: 18px;
@@ -159,7 +169,7 @@ p {
 }
 
 .bienvenida p {
-    color: #dce6f7;
+    color: #ffffff;
 }
 
 .accesos {
