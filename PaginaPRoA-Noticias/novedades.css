@@ -1,17 +1,19 @@
 :root {
-  /* Paleta */
-  --navy: #2F4156;
-  --teal: #567C8D;
-  --sky-blue: #C8D9E6;
-  --beige: #FDF1E2;
-  --white: #FFFFFF;
+  /* PALETA PRINCIPAL - AZULES Y PLATEADOS */
 
-  /* Colores del sitio */
-  --fondo: #8EB1D1;
-  --claro: var(--sky-blue);
-  --azul: var(--sky-blue);
-  --azul-oscuro: var(--beige);
-  --texto: var(--navy);
+  --fondo: #E8ECEF;       /* Platinum */
+  --claro: #A7C7E7;       /* Baby Blue Eyes */
+  --azul: #C4D8E5;        /* Light Blue Grey */
+  --azul-oscuro: #1C2B48; /* Midnight Blue */
+  --texto: #1C2B48;       /* Midnight Blue */
+
+  /* TONOS COMPLEMENTARIOS */
+
+  --navy: #1C2B48;
+  --teal: #C4D8E5;
+  --sky-blue: #8EB1D1;    /* Cool Cerulean */
+  --beige: #E8ECEF;
+  --white: #FFFFFF;
 }
 
 * {
@@ -30,7 +32,8 @@ button {
   font: inherit;
 }
 
-/* Menú lateral */
+/* MENÚ LATERAL */
+
 .boton-menu {
   position: fixed;
   top: 20px;
@@ -195,9 +198,7 @@ button {
   }
 }
 
-/* ==============================
-   ENCABEZADO
-   ============================== */
+/* ENCABEZADO */
 
 .encabezado-novedades {
   position: relative;
@@ -315,9 +316,7 @@ h1 {
   scroll-margin-top: 20px;
 }
 
-/* ==============================
-   CONTENEDORES GENERALES
-   ============================== */
+/* CONTENEDORES GENERALES */
 
 .novedad-expo,
 .novedad-competencias,
@@ -345,9 +344,7 @@ h1 {
   gap: 25px;
 }
 
-/* ==============================
-   CARRUSELES GENERALES
-   ============================== */
+/* CARRUSELES GENERALES */
 
 .expo-galeria,
 .competencia-galeria,
@@ -493,9 +490,7 @@ h1 {
   background: var(--beige);
 }
 
-/* ==============================
-   CAJAS DE TEXTO
-   ============================== */
+/* CAJAS DE TEXTO */
 
 .descripcion-novedad {
   padding: 25px;
@@ -519,9 +514,7 @@ h1 {
   line-height: 1.5;
 }
 
-/* ==============================
-   TARJETAS SECUNDARIAS
-   ============================== */
+/* TARJETAS SECUNDARIAS */
 
 .competencias-secundarias,
 .competencias-secundarias-vertical {
@@ -553,9 +546,7 @@ h1 {
   flex: 1;
 }
 
-/* ==============================
-   VISITAS
-   ============================== */
+/* VISITAS */
 
 .novedad-visitas {
   display: grid;
@@ -580,9 +571,7 @@ h1 {
   flex: 1;
 }
 
-/* ==============================
-   ACTOS
-   ============================== */
+/* ACTOS */
 
 .novedad-actos {
   display: flex;
@@ -604,9 +593,7 @@ h1 {
   width: 100%;
 }
 
-/* ==============================
-   PROYECTOS
-   ============================== */
+/* PROYECTOS */
 
 .novedad-proyectos {
   display: grid;
@@ -618,9 +605,7 @@ h1 {
   min-height: 400px;
 }
 
-/* ==============================
-   CENTRO DE ESTUDIANTES
-   ============================== */
+/* CENTRO DE ESTUDIANTES */
 
 .novedad-cde {
   width: 100%;
@@ -797,9 +782,7 @@ h1 {
   right: 40px;
 }
 
-/* ==============================
-   JORNADAS ESPECIALES Y RIFAS
-   ============================== */
+/* JORNADAS ESPECIALES Y RIFAS */
 
 .novedad-jornadas,
 .novedad-rifas {
@@ -958,9 +941,7 @@ h1 {
   box-sizing: border-box;
 }
 
-/* ==============================
-   ZOOM EN LAS IMÁGENES
-   ============================== */
+/* ZOOM EN LAS IMÁGENES */
 
 main img {
   cursor: zoom-in;
@@ -1023,9 +1004,7 @@ main img {
   background: rgba(255, 255, 255, .3);
 }
 
-/* ==============================
-   DISEÑO RESPONSIVE
-   ============================== */
+/* DISEÑO RESPONSIVE */
 
 @media (max-width: 900px) {
   .novedad-expo,

@@ -4,7 +4,6 @@
 
 const pantallaLogin = document.getElementById("pantallaLogin");
 const panelDocente = document.getElementById("panelDocente");
-const panelCuenta = document.getElementById("panelCuenta");
 
 const btnFamilia = document.getElementById("btnFamilia");
 const btnDocente = document.getElementById("btnDocente");
@@ -15,21 +14,6 @@ const usuario = document.getElementById("usuario");
 const contrasena = document.getElementById("contrasena");
 
 const mensaje = document.getElementById("mensaje");
-const btnCerrarCuenta = document.getElementById("btnCerrarCuenta");
-
-const nombrePerfil = document.getElementById("nombrePerfil");
-const inicialPerfil = document.getElementById("inicialPerfil");
-const rolPerfil = document.getElementById("rolPerfil");
-const usuarioPerfil = document.getElementById("usuarioPerfil");
-
-function mostrarPerfil(cuenta) {
-  nombrePerfil.textContent = cuenta.nombre;
-  inicialPerfil.textContent = cuenta.nombre.charAt(0).toUpperCase();
-  rolPerfil.textContent = cuenta.rol;
-  usuarioPerfil.textContent = cuenta.nombre;
-  pantallaLogin.style.display = "none";
-  panelCuenta.style.display = "block";
-}
 
 
 // =========================
@@ -164,15 +148,7 @@ formLogin.addEventListener("submit", function(event) {
   // INGRESO DOCENTE
   // =========================
 
-  const esDocente = btnDocente.classList.contains("activo");
-  const cuenta = {
-    nombre: nombreUsuario,
-    rol: esDocente ? "Docente" : "Estudiante / Padre"
-  };
-
-  sessionStorage.setItem("proaAccount", JSON.stringify(cuenta));
-
-  if (esDocente) {
+  if (btnDocente.classList.contains("activo")) {
 
     pantallaLogin.style.display = "none";
 
@@ -189,49 +165,12 @@ formLogin.addEventListener("submit", function(event) {
 
 
   // =========================
-  // PERFIL ESTUDIANTE / PADRE
+  // INGRESO ESTUDIANTE / PADRE
   // =========================
 
-  mostrarPerfil(cuenta);
-  mensaje.textContent = "";
-  usuario.value = "";
-  contrasena.value = "";
+  mensaje.textContent =
+    "El acceso para estudiantes y padres estará disponible próximamente.";
 
-});
-
-
-// =========================
-// RECUPERAR PERFIL DE ESTA SESIÓN
-// =========================
-
-const cuentaGuardada = sessionStorage.getItem("proaAccount");
-
-if (cuentaGuardada) {
-  try {
-    const cuenta = JSON.parse(cuentaGuardada);
-
-    if (cuenta.rol === "Docente") {
-      pantallaLogin.style.display = "none";
-      panelDocente.style.display = "block";
-    } else if (cuenta.nombre) {
-      mostrarPerfil(cuenta);
-    }
-  } catch {
-    sessionStorage.removeItem("proaAccount");
-  }
-}
-
-
-// =========================
-// CERRAR SESIÓN DE PERFIL
-// =========================
-
-btnCerrarCuenta.addEventListener("click", function() {
-  sessionStorage.removeItem("proaAccount");
-  panelCuenta.style.display = "none";
-  pantallaLogin.style.display = "flex";
-  btnFamilia.classList.add("activo");
-  btnDocente.classList.remove("activo");
 });
 
 
@@ -240,8 +179,6 @@ btnCerrarCuenta.addEventListener("click", function() {
 // =========================
 
 btnCerrarSesion.addEventListener("click", function() {
-
-  sessionStorage.removeItem("proaAccount");
 
   panelDocente.style.display = "none";
 

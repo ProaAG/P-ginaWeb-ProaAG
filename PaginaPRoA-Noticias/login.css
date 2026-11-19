@@ -1,0 +1,630 @@
+/* =========================
+   GENERAL
+   ========================= */
+
+:root {
+  --azul-petroleo: #245E74;
+  --celeste: #69A9BA;
+  --azul-oscuro: #17485A;
+  --gris-claro: #F0F0F0;
+  --blanco: #FFFFFF;
+  --texto: #17485A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--azul-petroleo);
+  color: var(--texto);
+}
+
+
+/* =========================
+   LOGIN
+   ========================= */
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.login-contenedor {
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--blanco);
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.login-contenedor h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2rem;
+  color: var(--azul-oscuro);
+}
+
+.subtitulo {
+  text-align: center;
+  margin: 10px 0 30px;
+  color: var(--azul-oscuro);
+}
+
+
+/* =========================
+   TIPO DE USUARIO
+   ========================= */
+
+.tipo-usuario {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tipo-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--gris-claro);
+  color: var(--azul-oscuro);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.tipo-btn.activo {
+  background-color: var(--azul-oscuro);
+  color: var(--blanco);
+}
+
+
+/* =========================
+   FORMULARIO LOGIN
+   ========================= */
+
+#formLogin {
+  display: flex;
+  flex-direction: column;
+}
+
+#formLogin label {
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: var(--azul-oscuro);
+}
+
+#formLogin input {
+  padding: 13px;
+  margin-bottom: 18px;
+  border: 1px solid #b7cbd1;
+  border-radius: 9px;
+  font-size: 1rem;
+}
+
+#formLogin input:focus {
+  outline: none;
+  border-color: var(--celeste);
+}
+
+.btn-ingresar {
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--azul-petroleo);
+  color: var(--blanco);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-ingresar:hover {
+  background-color: var(--azul-oscuro);
+}
+
+.mensaje {
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+/* =========================
+   PANEL DOCENTE
+   ========================= */
+
+.panel-docente {
+  display: none;
+  min-height: 100vh;
+  background-color: var(--azul-petroleo);
+}
+
+
+/* =========================
+   ENCABEZADO DOCENTE
+   ========================= */
+
+.encabezado-docente {
+  background-color: var(--celeste);
+  padding: 22px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.encabezado-docente h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--blanco);
+}
+
+.encabezado-docente p {
+  margin: 5px 0 0;
+  color: var(--azul-oscuro);
+}
+
+.btn-cerrar {
+  border: none;
+  background-color: var(--azul-oscuro);
+  color: var(--blanco);
+  padding: 11px 18px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-cerrar:hover {
+  background-color: var(--azul-petroleo);
+}
+
+
+/* =========================
+   CONTENIDO DOCENTE
+   ========================= */
+
+.contenido-docente {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 25px 60px;
+}
+
+
+/* =========================
+   BIENVENIDA
+   ========================= */
+
+.bienvenida {
+  margin-bottom: 30px;
+  color: var(--blanco);
+}
+
+.bienvenida h2 {
+  margin-bottom: 8px;
+}
+
+.bienvenida p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* =========================
+   TARJETAS DE ACCIONES
+   ========================= */
+
+.acciones-docente {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.tarjeta-accion {
+  background-color: var(--blanco);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta-accion h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--azul-oscuro);
+}
+
+.tarjeta-accion p {
+  color: #3f5b65;
+  line-height: 1.5;
+}
+
+.tarjeta-accion button {
+  margin-top: 10px;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 9px;
+  background-color: var(--azul-petroleo);
+  color: var(--blanco);
+  cursor: pointer;
+}
+
+.tarjeta-accion button:hover {
+  background-color: var(--azul-oscuro);
+}
+
+
+/* =========================
+   FORMULARIO NOTICIA
+   ========================= */
+
+.formulario-noticia {
+  display: none;
+  background-color: var(--blanco);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+
+.formulario-noticia h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: var(--azul-oscuro);
+}
+
+#formNoticia {
+  display: flex;
+  flex-direction: column;
+}
+
+#formNoticia label {
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: var(--azul-oscuro);
+}
+
+#formNoticia input,
+#formNoticia select,
+#formNoticia textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #b7cbd1;
+  border-radius: 9px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#formNoticia textarea {
+  resize: vertical;
+}
+
+#formNoticia input:focus,
+#formNoticia select:focus,
+#formNoticia textarea:focus {
+  outline: none;
+  border-color: var(--celeste);
+}
+
+
+/* =========================
+   BOTONES NOTICIA
+   ========================= */
+
+.botones-noticia {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.btn-publicar-noticia,
+.btn-cancelar-noticia {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-publicar-noticia {
+  background-color: var(--azul-petroleo);
+  color: var(--blanco);
+}
+
+.btn-cancelar-noticia {
+  background-color: var(--gris-claro);
+  color: var(--azul-oscuro);
+}
+
+.btn-publicar-noticia:hover {
+  background-color: var(--azul-oscuro);
+}
+
+.btn-cancelar-noticia:hover {
+  background-color: #d9e5e8;
+}
+
+.mensaje-noticia {
+  margin-top: 15px;
+}
+
+
+/* =========================
+   SUBIR IMÁGENES
+   ========================= */
+
+.formulario-imagenes {
+  display: none;
+  background-color: var(--blanco);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+
+.formulario-imagenes h2 {
+  margin-top: 0;
+  color: var(--azul-oscuro);
+}
+
+.formulario-imagenes p {
+  color: #3f5b65;
+}
+
+.formulario-imagenes label {
+  display: block;
+  margin: 20px 0 8px;
+  font-weight: bold;
+  color: var(--azul-oscuro);
+}
+
+.formulario-imagenes input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b7cbd1;
+  border-radius: 9px;
+}
+
+
+/* =========================
+   VISTA PREVIA IMAGEN
+   ========================= */
+
+.vista-previa {
+  min-height: 220px;
+  margin-top: 20px;
+  border: 2px dashed #b7cbd1;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--gris-claro);
+}
+
+.vista-previa p {
+  color: #6b858d;
+  text-align: center;
+}
+
+.vista-previa img {
+  max-width: 100%;
+  max-height: 350px;
+  display: block;
+}
+
+
+/* =========================
+   BOTONES IMAGEN
+   ========================= */
+
+.botones-imagen {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-guardar-imagen,
+.btn-cancelar-imagen {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-guardar-imagen {
+  background-color: var(--azul-petroleo);
+  color: var(--blanco);
+}
+
+.btn-cancelar-imagen {
+  background-color: var(--gris-claro);
+  color: var(--azul-oscuro);
+}
+
+.btn-guardar-imagen:hover {
+  background-color: var(--azul-oscuro);
+}
+
+.btn-cancelar-imagen:hover {
+  background-color: #d9e5e8;
+}
+
+.mensaje-imagen {
+  margin-top: 15px;
+}
+
+
+/* =========================
+   PUBLICACIONES
+   ========================= */
+
+.publicaciones-docente {
+  display: none;
+  background-color: var(--blanco);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+}
+
+.publicaciones-docente h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--azul-oscuro);
+}
+
+.descripcion-publicaciones {
+  color: #3f5b65;
+  margin-bottom: 25px;
+}
+
+
+/* =========================
+   LISTA DE PUBLICACIONES
+   ========================= */
+
+.lista-publicaciones {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.publicacion-docente {
+  border: 1px solid #c5d7dc;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7fbfc;
+}
+
+.info-publicacion {
+  flex: 1;
+}
+
+.categoria-publicacion {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: var(--celeste);
+  color: var(--azul-oscuro);
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.info-publicacion h3 {
+  margin: 5px 0;
+  color: var(--azul-oscuro);
+}
+
+.info-publicacion p {
+  margin: 7px 0;
+  color: #3f5b65;
+}
+
+.fecha-publicacion {
+  font-size: 0.9rem;
+}
+
+
+/* =========================
+   ACCIONES PUBLICACIÓN
+   ========================= */
+
+.acciones-publicacion {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-editar,
+.btn-eliminar {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: var(--azul-petroleo);
+  color: var(--blanco);
+}
+
+.btn-eliminar {
+  background-color: var(--gris-claro);
+  color: var(--azul-oscuro);
+}
+
+.btn-editar:hover {
+  background-color: var(--azul-oscuro);
+}
+
+.btn-eliminar:hover {
+  background-color: #d9e5e8;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 800px) {
+  .acciones-docente {
+    grid-template-columns: 1fr;
+  }
+
+  .encabezado-docente {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .contenido-docente {
+    padding: 30px 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .login {
+    padding: 20px;
+  }
+
+  .login-contenedor {
+    padding: 30px 20px;
+  }
+
+  .encabezado-docente {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-cerrar {
+    width: 100%;
+  }
+
+  .botones-noticia,
+  .botones-imagen {
+    flex-direction: column;
+  }
+
+  .botones-noticia button,
+  .botones-imagen button {
+    width: 100%;
+  }
+
+  .publicacion-docente {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .acciones-publicacion {
+    width: 100%;
+  }
+
+  .acciones-publicacion button {
+    flex: 1;
+  }
+}
